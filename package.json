@@ -13,7 +13,7 @@
     "software"
   ],
   "homepage": "https://www.wappalyzer.com/",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "ramazansancar",
   "license": "GPL-3.0",
   "repository": {
@@ -25,11 +25,10 @@
       "url": "https://github.com/sponsors/ramazansancar"
     }
   ],
-  "main": "driver.js",
+  "main": "index.js",
   "files": [
     "cli.js",
     "categories.json",
-    "driver.js",
     "index.js",
     "LICENSE",
     "README.md",
@@ -41,9 +40,9 @@
     "wappalyzer": "./cli.js"
   },
   "dependencies": {
-    "puppeteer": "~19.7.0"
+    "puppeteer": "^22.6.0"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   }
 }

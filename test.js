@@ -1,4 +1,4 @@
-const Wappalyzer = require('./driver.js')
+const Wappalyzer = require('./index.js')
 
 const options = {
   debug: false,

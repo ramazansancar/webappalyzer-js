@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const Wappalyzer = require('./driver')
+const Wappalyzer = require('./index')
 
 const args = process.argv.slice(2)
 
