@@ -1,5 +1,5 @@
 {
-  "name": "wappalyzer",
+  "name": "webappalyzer-js",
   "description": "Identify technology on websites",
   "keywords": [
     "analyze",
@@ -13,16 +13,16 @@
     "software"
   ],
   "homepage": "https://www.wappalyzer.com/",
-  "version": "6.10.66",
+  "version": "1.0.0",
   "author": "Wappalyzer",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wappalyzer/wappalyzer"
+    "url": "https://github.com/ramazansancar/webappalyzer-js"
   },
   "funding": [
     {
-      "url": "https://github.com/sponsors/aliasio"
+      "url": "https://github.com/sponsors/ramazansancar"
     }
   ],
   "main": "driver.js",
