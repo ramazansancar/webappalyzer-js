@@ -12,6 +12,8 @@ This is a Wappalyzer JS Driver and CLI forked from the last public release of th
 
 ### Installation
 
+- NPM [webappalyzer-js](https://www.npmjs.com/package/webappalyzer-js)
+
 ```shell
 $ npm i -g webappalyzer-js
 ```
