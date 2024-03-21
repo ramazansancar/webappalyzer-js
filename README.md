@@ -97,7 +97,7 @@ const wappalyzer = new WebappalyzerJS(options)
 
     // Optionally set local and/or session storage
     const storage = {
-      local: {}
+      local: {},
       session: {}
     }
 
