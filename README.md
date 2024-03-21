@@ -24,7 +24,7 @@ webappalyzer-js <url> [options]
 
 ### Icon Assets
 
-- [https://github.com/ramazansancar/webappalyzer-js/tree/assets](Icon Assets)
+- [Icon Assets](https://github.com/ramazansancar/webappalyzer-js/tree/assets)
 
 #### Options
 
