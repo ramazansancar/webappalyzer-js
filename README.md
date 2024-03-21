@@ -116,11 +116,11 @@ const wappalyzer = new WebappalyzerJS(options)
 Multiple URLs can be processed in parallel:
 
 ```javascript
-const Wappalyzer = require('wappalyzer');
+const WebappalyzerJS = require('webappalyzer-js');
 
 const urls = ['https://www.wappalyzer.com', 'https://www.example.com']
 
-const wappalyzer = new Wappalyzer()
+const wappalyzer = new WebappalyzerJS()
 
 ;(async function() {
   try {
