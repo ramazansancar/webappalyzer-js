@@ -13,8 +13,8 @@
     "software"
   ],
   "homepage": "https://www.wappalyzer.com/",
-  "version": "1.0.0",
-  "author": "Wappalyzer",
+  "version": "1.0.1",
+  "author": "ramazansancar",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
