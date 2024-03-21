@@ -127,7 +127,7 @@
       "ipsSettings": ""
     },
     "scriptSrc": "jscripts/ips_",
-    "website": "https://invisioncommunity.com/"
+    "website": "https://invisioncommunity.com"
   },
   "IPFS": {
     "cats": [
@@ -1304,7 +1304,7 @@
       "Isso.fetchComments": ""
     },
     "oss": true,
-    "website": "https://github.com/posativ/isso/"
+    "website": "https://github.com/isso-comments/isso"
   },
   "Issuu": {
     "cats": [

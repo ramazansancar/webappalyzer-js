@@ -1059,7 +1059,7 @@
       36,
       77
     ],
-    "description": "AdRoll is a digital marketing technology platform that specialises in retargeting.",
+    "description": "AdRoll is a digital marketing technology platform that specializes in retargeting.",
     "dom": "link[href*='.adroll.com']",
     "icon": "AdRoll.svg",
     "js": {
@@ -1582,8 +1582,8 @@
     ],
     "cpe": "cpe:2.3:a:adobe:experience_manager:*:*:*:*:*:*:*:*",
     "description": "Adobe Experience Manager Franklin, also known as Project Helix or Composability, is a new way to publish AEM pages using Google Drive or Microsoft Office via Sharepoint. Instead of components, Franklin uses blocks to build pages. Blocks are pieces of a document that will be transformed into web page content.",
-    "excludes": "Adobe Experience Manager",
     "icon": "Adobe Experience Manager Franklin.svg",
+    "excludes": "Adobe Experience Manager",
     "scriptSrc": "^.+/scripts/lib-franklin\\.js$",
     "website": "https://www.hlx.live"
   },
@@ -2011,7 +2011,7 @@
       "afterpay-products\\.min\\.js",
       "js\\.stripe\\.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+\\.js"
     ],
-    "website": "https://www.afterpay.com/"
+    "website": "https://www.afterpay.com"
   },
   "Ahoy": {
     "cats": [

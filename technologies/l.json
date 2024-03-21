@@ -35,7 +35,7 @@
     "js": {
       "Constants.authorization_request_url": "access\\.line\\.me/oauth2/v([\\d\\.]+)/\\;version:\\1"
     },
-    "website": "https://developers.line.biz/en/services/line-login/"
+    "website": "https://developers.line.biz/en/services/line-login"
   },
   "LKQD": {
     "cats": [
