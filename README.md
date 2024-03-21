@@ -22,6 +22,10 @@ $ npm i -g webappalyzer-js
 webappalyzer-js <url> [options]
 ```
 
+### Icon Assets
+
+- [https://github.com/ramazansancar/webappalyzer-js/tree/assets](Icon Assets)
+
 #### Options
 
 ```
