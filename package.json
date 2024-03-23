@@ -12,8 +12,8 @@
     "library",
     "software"
   ],
-  "homepage": "https://www.wappalyzer.com/",
-  "version": "1.0.2",
+  "homepage": "https://github.com/ramazansancar/webappalyzer-js",
+  "version": "1.0.3",
   "author": "ramazansancar",
   "license": "GPL-3.0",
   "repository": {
