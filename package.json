@@ -1,5 +1,6 @@
 {
   "name": "webappalyzer-js",
+  "version": "1.0.6",
   "description": "Identify technology on websites",
   "keywords": [
     "analyze",
@@ -13,7 +14,6 @@
     "software"
   ],
   "homepage": "https://github.com/ramazansancar/webappalyzer-js",
-  "version": "1.0.5",
   "author": "ramazansancar",
   "license": "GPL-3.0",
   "repository": {
