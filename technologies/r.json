@@ -388,6 +388,21 @@
     "saas": true,
     "website": "https://raisely.com"
   },
+  "Rake": {
+    "cats": [
+      52
+    ],
+    "description": "Rake is a messaging platform and conversion optimization solution designed for communication between customers, visitors, and co-workers.",
+    "icon": "Rake.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "widget\\.rake\\.ai/",
+    "website": "https://www.rake.ai"
+  },
   "Raku-uru Cart": {
     "cats": [
       6
@@ -1000,6 +1015,42 @@
     "saas": true,
     "website": "https://readymag.com"
   },
+  "Reaktion": {
+    "cats": [
+      6
+    ],
+    "description": "Reaktion is a provider of ecommerce solutions designed to help businesses enhance their online profits.",
+    "icon": "Reaktion.svg",
+    "js": {
+      "reaktionLock": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "payg",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "api\\.reaktion\\.com",
+    "website": "https://reaktion.com"
+  },
+  "RealNex MarketPlace": {
+    "cats": [
+      6
+    ],
+    "description": "RealNex Marketplace is a platform for buying, selling, leasing, and transacting in commercial real estate, offering advanced search tools, alerts for new listings, and automated matching based on user-defined criteria.",
+    "icon": "RealNex.svg",
+    "js": {
+      "NEX_MAP_ID": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://realnex.com"
+  },
   "Really Simple CAPTCHA": {
     "cats": [
       87
@@ -1359,6 +1410,18 @@
     "scriptSrc": "www\\.redditstatic\\.com",
     "website": "https://advertising.reddithelp.com/"
   },
+  "Redicom": {
+    "cats": [
+      6
+    ],
+    "description": "Redicom is a Portuguese-based platform specializing in premium ecommerce solutions.",
+    "icon": "Redicom.svg",
+    "meta": {
+      "generator": "^Redicom Prolepse$"
+    },
+    "saas": true,
+    "website": "https://www.redicom.pt"
+  },
   "Redis": {
     "cats": [
       34
@@ -1379,6 +1442,21 @@
       "WordPress"
     ],
     "website": "https://wprediscache.com"
+  },
+  "Reditus": {
+    "cats": [
+      71
+    ],
+    "description": "Reditus is a partner management tool for B2B SaaS companies.",
+    "icon": "Reditus.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.getreditus\\.com/",
+    "website": "https://www.getreditus.com"
   },
   "Redmine": {
     "cats": [
@@ -2086,6 +2164,20 @@
     "saas": true,
     "website": "https://www.respond.io"
   },
+  "Responsa": {
+    "cats": [
+      52
+    ],
+    "description": "Responsa is a conversational AI platform designed to increase sales and reduce operational costs by automating customer interactions and streamlining communication processes.",
+    "icon": "Responsa.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "//goresponsa\\.com/",
+    "website": "https://responsa.ai"
+  },
   "Responsive Lightbox & Gallery": {
     "cats": [
       87,
@@ -2196,6 +2288,7 @@
     "description": "Retention.com's identity resolution software helps Shopify merchants recover lost shoppers.",
     "icon": "Retention.com.svg",
     "js": {
+      "B2BRetention": "",
       "addedToCartRetentionButton": "",
       "viewedProductRetention": ""
     },
@@ -2460,6 +2553,16 @@
     "saas": true,
     "scriptSrc": "\\.reviewforest\\.org/",
     "website": "https://reviewforest.org/"
+  },
+  "ReviewPro": {
+    "cats": [
+      90
+    ],
+    "description": "ReviewPro is a hotel guest review system designed to collect and analyze guest feedback.",
+    "icon": "ReviewPro.svg",
+    "saas": true,
+    "scriptSrc": "sapi\\.reviewpro\\.com/",
+    "website": "https://reviewpro.shijigroup.com"
   },
   "ReviewRail": {
     "cats": [
@@ -2746,6 +2849,20 @@
     "oss": true,
     "website": "https://github.com/rightjs"
   },
+  "RightMessage": {
+    "cats": [
+      76
+    ],
+    "description": "RightMessage is a real-time content personalization tool.",
+    "icon": "RightMessage.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "tag\\.rightmessage\\.com/",
+    "website": "https://rightmessage.com"
+  },
   "Ringba": {
     "cats": [
       10
@@ -2978,6 +3095,21 @@
     },
     "saas": true,
     "website": "https://robixcm.ir"
+  },
+  "Robly": {
+    "cats": [
+      32,
+      75
+    ],
+    "description": "Robly is an email marketing platform designed to simplify campaign creation and management for businesses.",
+    "dom": "form[action*='list.robly.com/']",
+    "icon": "Robly.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.robly.com"
   },
   "Rock Content": {
     "cats": [
@@ -3332,6 +3464,23 @@
     "icon": "Ruby.svg",
     "website": "https://ruby-lang.org"
   },
+  "Ruby Chat": {
+    "cats": [
+      52
+    ],
+    "description": "Ruby Chat is a service offering live virtual receptionists and live chat to assist businesses in managing customer interactions and inquiries in real-time.",
+    "icon": "RubyChat.svg",
+    "js": {
+      "rubyChatLoading": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "chatwidget\\.ruby\\.com/",
+    "website": "https://www.ruby.com/solutions/live-chat"
+  },
   "Ruby Receptionists": {
     "cats": [
       5
@@ -3397,7 +3546,7 @@
     "description": "Ruffle is an open-source Flash Player emulator that allows users to view and play Flash content on modern web browsers without requiring the original Adobe Flash Player.",
     "icon": "Ruffle.svg",
     "js": {
-      "RufflePlayer": ""
+      "RufflePlayer.config": ""
     },
     "oss": true,
     "website": "https://ruffle.rs"

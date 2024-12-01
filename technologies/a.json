@@ -296,6 +296,22 @@
     "text": "\\APC\\b",
     "website": "https://www.apc-pli.com"
   },
+  "ARCaptcha": {
+    "cats": [
+      16
+    ],
+    "description": "ARCaptcha is a CAPTCHA system designed to enhance online security by preventing automated bots from accessing websites.",
+    "icon": "ARCaptcha.svg",
+    "js": {
+      "arcaptcha.checkboxCreatorRegistered": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://arcaptcha.co"
+  },
   "ARI Network Services": {
     "cats": [
       6
@@ -2290,6 +2306,23 @@
     ],
     "website": "https://www.afterpay.com/"
   },
+  "AgentFire": {
+    "cats": [
+      32
+    ],
+    "description": "AgentFire is a platform designed for the real estate industry, offering tools and features that help agents capitalize on digital opportunities for marketing, lead generation, and client engagement.",
+    "icon": "AgentFire.svg",
+    "js": {
+      "AgentFire.Api": "",
+      "AgentFire_Oauth2": "",
+      "AgentFire_Settings": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://agentfire.com"
+  },
   "Agile CRM": {
     "cats": [
       53
@@ -2513,6 +2546,22 @@
     "scriptSrc": "^https?://cdn\\.aircall\\.io/",
     "website": "https://aircall.io"
   },
+  "Airdata": {
+    "cats": [
+      104
+    ],
+    "description": "Airdata is a ticket booking system for agents in Vietnam, offering unique features to maximize benefits for businesses in managing and selling flight tickets.",
+    "icon": "Airdata.svg",
+    "js": {
+      "BOOKING_BASE_API_URL": "api\\.airdata\\.vn"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://airdata.vn"
+  },
   "Airee": {
     "cats": [
       31,
@@ -2704,6 +2753,16 @@
     "implies": "Laravel",
     "oss": true,
     "website": "https://akaunting.com"
+  },
+  "Akero": {
+    "cats": [
+      32
+    ],
+    "description": "Akero is a platform that provides marketing and admissions technology designed for educational institutions.",
+    "icon": "Akero.svg",
+    "saas": true,
+    "scripts": "\\.akerolabs\\.com",
+    "website": "https://akerolabs.com"
   },
   "Akilli Ticaret": {
     "cats": [
@@ -2926,6 +2985,7 @@
       "payg"
     ],
     "saas": true,
+    "scripts": "algoliasearch",
     "website": "https://www.algolia.com"
   },
   "Algolia DocSearch": {
@@ -3193,6 +3253,23 @@
       "/alpine(?:\\.min)?\\.js"
     ],
     "website": "https://alpinejs.dev"
+  },
+  "Altcha": {
+    "cats": [
+      16
+    ],
+    "description": "Altcha is a spam and abuse protection solution for websites and apps, offering a privacy-friendly Captcha and other tools designed with GDPR compliance to provide strong security while safeguarding user privacy.",
+    "icon": "Altcha.svg",
+    "js": {
+      "ALTCHA_WIDGET_ATTRS": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "freemium"
+    ],
+    "scripts": ".*altcha\\.(org|js)",
+    "website": "https://altcha.org"
   },
   "AlternC": {
     "cats": [
@@ -5296,6 +5373,20 @@
     ],
     "website": "https://wpastra.com/did-you-know-astra-is-widget-ready"
   },
+  "AstraFit": {
+    "cats": [
+      6
+    ],
+    "description": "AstraFit is an online virtual fitting software for large and small retailers.",
+    "icon": "AstraFit.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "widget\\.astrafit\\.com/",
+    "website": "https://www.astrafit.com"
+  },
   "Astro": {
     "cats": [
       57,
@@ -6350,6 +6441,19 @@
     },
     "scriptSrc": "actionheroClient\\.js",
     "website": "https://www.actionherojs.com"
+  },
+  "adCAPTCHA": {
+    "cats": [
+      16
+    ],
+    "description": "adCAPTCHA is a security tool that integrates marketing and user experience to block bots while enhancing brand visibility, using dynamic content for varied challenges without collecting user data.",
+    "icon": "adCAPTCHA.svg",
+    "js": {
+      "adCAPTCHA": "",
+      "adcaptcha_vars": ""
+    },
+    "saas": true,
+    "website": "https://adcaptcha.com"
   },
   "amCharts": {
     "cats": [

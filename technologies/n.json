@@ -1117,6 +1117,22 @@
     "saas": true,
     "website": "https://www.gonift.com"
   },
+  "Nimbata": {
+    "cats": [
+      10
+    ],
+    "description": "Nimbata is a call tracking and conversion attribution platform designed to help marketing professionals, teams, and agencies make informed decisions to improve campaign performance.",
+    "icon": "Nimbata.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.dni\\.nimbata\\.com/",
+    "website": "https://www.nimbata.com"
+  },
   "Ninja Forms": {
     "cats": [
       87,
@@ -1618,8 +1634,7 @@
     "dom": "div[id^='__nuxt']",
     "icon": "Nuxt.js.svg",
     "implies": [
-      "Vue.js",
-      "Node.js"
+      "Vue.js"
     ],
     "js": {
       "$nuxt": "",

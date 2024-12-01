@@ -1,4 +1,14 @@
 {
+  "LEADIN": {
+    "cats": [
+      10
+    ],
+    "description": "LEADIN is a tool that provides insights into individuals who fill out forms on a site, utilizing Hubspot's market-leading CRM for implementation.",
+    "icon": "LEADIN.svg",
+    "saas": true,
+    "scriptSrc": "js\\.leadin\\.com",
+    "website": "https://leadin.com"
+  },
   "LEPTON": {
     "cats": [
       1
@@ -64,6 +74,23 @@
     "icon": "LOU.svg",
     "scriptSrc": "cdn\\.louassist\\.com*",
     "website": "https://www.louassist.com"
+  },
+  "LPQV": {
+    "cats": [
+      6
+    ],
+    "description": "LPQV is an online store that offers integrated landing pages, streamlining the entire operation in one place.",
+    "icon": "LPQV.svg",
+    "js": {
+      "LPQV.page": "",
+      "LPQV_VARS_RPL": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.lpqv.com.br/"
   },
   "LTheme": {
     "cats": [
@@ -532,6 +559,17 @@
     "scriptSrc": "\\leadslide\\.com/",
     "website": "https://v1.leadslide.com"
   },
+  "Leadbit": {
+    "cats": [
+      36
+    ],
+    "description": "Leadbit is an offer-based ad system designed to target users with specific ads based on their engagement and preferences.",
+    "dom": "form[action*='wapi.leadbit.com/']",
+    "icon": "Leadbit.svg",
+    "saas": true,
+    "scriptSrc": "\\.leadbit\\.com/",
+    "website": "https://leadbit.com"
+  },
   "Leadfeeder": {
     "cats": [
       10
@@ -651,6 +689,20 @@
     ],
     "saas": true,
     "website": "https://leadster.com.br"
+  },
+  "Leadtex": {
+    "cats": [
+      52
+    ],
+    "description": "Leadtex is a software solution focused on the development of chatbots.",
+    "icon": "Leadteh.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.leadteh\\.ru/",
+    "website": "https://leadteh.ru"
   },
   "Leaflet": {
     "cats": [
@@ -1184,6 +1236,20 @@
     "scriptSrc": "http://assets\\.webshopapp\\.com",
     "url": "seoshop.webshopapp.com",
     "website": "https://www.lightspeedhq.com/products/ecommerce/"
+  },
+  "Ligna": {
+    "cats": [
+      53
+    ],
+    "description": "Ligna is a sales, marketing, and enablement platform offering features to close clients, manage content, oversee projects, and track details, providing an all-in-one solution for business operations.",
+    "icon": "Ligna.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.ligna\\.io/",
+    "website": "https://www.ligna.io"
   },
   "Liine": {
     "cats": [
