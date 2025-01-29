@@ -32,6 +32,23 @@
     "saas": true,
     "website": "https://ugc-creative.com/"
   },
+  "UI Avenue": {
+    "cats": [
+      10,
+      91
+    ],
+    "description": "UI Avenue is a data tracking and analytics software for Shopify.",
+    "icon": "UIAvenue.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": "Shopify",
+    "saas": true,
+    "scripts": "analytics\\.uiavenue\\.ca",
+    "website": "https://www.uiavenue.ca"
+  },
   "UIKit": {
     "cats": [
       66
@@ -41,6 +58,18 @@
     "icon": "UIKit.svg",
     "scriptSrc": "uikit.*\\.js",
     "website": "https://getuikit.com"
+  },
+  "UMAI": {
+    "cats": [
+      10
+    ],
+    "description": "UMAI is an analytics-based software using state-of-the-art technology to improve the experiences & performance for hospitality based businesses and their guests.",
+    "icon": "UMAI.svg",
+    "js": {
+      "umaiWidget.config": ""
+    },
+    "saas": true,
+    "website": "https://www.umai.io"
   },
   "UMI.CMS": {
     "cats": [
@@ -376,7 +405,7 @@
       "low"
     ],
     "saas": true,
-    "scripts": "/Umbraco/Api/",
+    "scripts": "/Umbraco/Api/|umbraco",
     "url": "/umbraco/login\\.aspx(?:$|\\?)",
     "website": "https://umbraco.com/",
     "xhr": "/umbraco/api/"
@@ -582,6 +611,25 @@
     "scriptSrc": "\\.unilogcorp\\.com/",
     "website": "https://unilogcorp.com"
   },
+  "Unito Hub": {
+    "cats": [
+      97
+    ],
+    "description": "Unito Hub is a unified data platform that integrates and consolidates data from multiple sources.",
+    "icon": "UnitoHub.svg",
+    "js": {
+      "Unito": "",
+      "Unito.app_version": "^(.+)$\\;version:\\1"
+    },
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "/unito\\.min\\.js",
+    "website": "https://unitohub.com"
+  },
   "Unless": {
     "cats": [
       53
@@ -752,6 +800,23 @@
     "saas": true,
     "website": "https://www.upgates.com"
   },
+  "Uplisting": {
+    "cats": [
+      93
+    ],
+    "description": "Uplisting is a property management system for Vacation Rental owners, operators and managers.",
+    "headers": {
+      "server": "Uplisting"
+    },
+    "icon": "Uplisting.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.uplisting.io"
+  },
   "Uploadcare": {
     "cats": [
       31
@@ -829,6 +894,22 @@
     "saas": true,
     "scriptSrc": "js\\.upscope\\.io/",
     "website": "https://upscope.com"
+  },
+  "Upscribe": {
+    "cats": [
+      75
+    ],
+    "description": "Upscribe is a platform offering tools to create newsletter signup forms.",
+    "icon": "Upscribe.svg",
+    "js": {
+      "Upscribe.c": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://upscribe.net"
   },
   "UpsellPlus": {
     "cats": [

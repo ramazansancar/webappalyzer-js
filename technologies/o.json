@@ -335,7 +335,6 @@
       57
     ],
     "description": "Octopress is a static blogging framework.",
-    "html": "Powered by <a href=\"http://octopress\\.org\">",
     "icon": "octopress.png",
     "implies": "Jekyll",
     "meta": {
@@ -584,7 +583,7 @@
       52
     ],
     "description": "Olark is a cloud-based live chat solution.",
-    "icon": "Olark.png",
+    "icon": "Olark.svg",
     "js": {
       "olark": "",
       "olarkUserData": ""
@@ -594,7 +593,23 @@
     ],
     "saas": true,
     "scriptSrc": "\\.olark\\.com/",
-    "website": "https://www.olark.com/"
+    "website": "https://www.olark.com"
+  },
+  "Oleoshop": {
+    "cats": [
+      6
+    ],
+    "description": "Oleoshop is a platform that enables businesses to create and manage their own online stores.",
+    "icon": "Oleoshop.svg",
+    "meta": {
+      "generator": "Oleoshop\\.com"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.oleoshop.com"
   },
   "Omeda": {
     "cats": [
@@ -1028,6 +1043,17 @@
     "saas": true,
     "scriptSrc": "app\\.onlim\\.com/",
     "website": "https://onlim.com"
+  },
+  "Onsen UI": {
+    "cats": [
+      26
+    ],
+    "description": "Onsen UI is an open-source HTML5 hybrid app framework offering mobile UI components for PhoneGap and Cordova development.",
+    "icon": "OnsenUI.svg",
+    "oss": true,
+    "saas": true,
+    "scriptSrc": "(/.*onsen.*min\\.js|.*angular-onsenui\\.min\\.js)",
+    "website": "https://onsen.io"
   },
   "Ookla Speedtest Custom": {
     "cats": [
@@ -1481,6 +1507,16 @@
     ],
     "website": "https://openx.com"
   },
+  "Opentracker": {
+    "cats": [
+      10
+    ],
+    "description": "Opentracker is a real-time analytics tool that tracks website traffic, user behavior, and engagement.",
+    "icon": "Opentracker.svg",
+    "saas": true,
+    "scriptSrc": "script\\.opentracker\\.net",
+    "website": "https://www.opentracker.net"
+  },
   "OperateBeyond": {
     "cats": [
       53
@@ -1887,9 +1923,6 @@
     "description": "Orama is a platform offering full-text and vector search capabilities across 300 global locations.",
     "dom": "li > a[href*='/@orama/orama'], link[href*='orama-search']",
     "icon": "OramaSearch.svg",
-    "js": {
-      "localStorage.orama_user_id": ""
-    },
     "oss": true,
     "pricing": [
       "freemium",
@@ -2351,6 +2384,18 @@
       "wp-content/plugins/oxygen"
     ],
     "website": "https://oxygenbuilder.com"
+  },
+  "oXyShop": {
+    "cats": [
+      6
+    ],
+    "description": "oXyShop is a platform for creating and managing online stores.",
+    "icon": "OxyShop.svg",
+    "meta": {
+      "web_author": "^oXyShop$"
+    },
+    "saas": true,
+    "website": "https://www.oxyshop.cz"
   },
   "ocStore": {
     "cats": [

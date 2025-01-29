@@ -204,7 +204,6 @@
     "cats": [
       1
     ],
-    "html": "<!--\\s+Powered by GX",
     "icon": "GX WebManager.svg",
     "meta": {
       "generator": "GX WebManager(?: ([\\d.]+))?\\;version:\\1"
@@ -233,10 +232,7 @@
       7
     ],
     "description": "Gallery is an open-source web based photo album organiser.",
-    "html": [
-      "<div id=\"gsNavBar\" class=\"gcBorder1\">",
-      "<a href=\"http://gallery\\.sourceforge\\.net\"><img[^>]+Powered by Gallery\\s*(?:(?:v|Version)\\s*([0-9.]+))?\\;version:\\1"
-    ],
+    "dom": "div[id*='gsNavBar'], div[class*='gcBorder1']",
     "icon": "Gallery.png",
     "js": {
       "$.fn.gallery_valign": "",
@@ -278,6 +274,20 @@
     "saas": true,
     "scriptSrc": "assets\\.gameball\\.co/",
     "website": "https://www.gameball.co"
+  },
+  "Gastronaut": {
+    "cats": [
+      93
+    ],
+    "description": "Gastronaut is a reservation system designed to automate the booking process, streamlining operations to enhance sales efficiency.",
+    "icon": "Gastronaut.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.gastronaut\\.ai/",
+    "website": "https://get.gastronaut.ai"
   },
   "Gator": {
     "cats": [
@@ -399,8 +409,7 @@
     "cats": [
       10
     ],
-    "html": "<a [^>]*onclick=\"gemius_hit",
-    "icon": "Gemius.png",
+    "icon": "Gemius.svg",
     "js": {
       "gemius_hit": "",
       "gemius_init": "",
@@ -418,17 +427,12 @@
     "cats": [
       27
     ],
-    "html": [
-      "<link[^>]+?id=\"gxtheme_css_reference\""
-    ],
+    "dom": "link[id^='gxtheme_css_reference']",
     "icon": "GeneXus.svg",
     "js": {
       "gx.gxVersion": "^(.+)-.*$\\;version:\\1"
     },
-    "scriptSrc": [
-      "/static/gxgral\\.js",
-      "/static/gxtimezone\\.js"
-    ],
+    "scriptSrc": "/static/(gxgral|gxtimezone)\\.js",
     "website": "https://www.genexus.com/"
   },
   "GenerateBlocks": {
@@ -575,6 +579,36 @@
     "scriptSrc": "\\.gsspcln\\.jp/",
     "website": "https://geniee.co.jp"
   },
+  "Geniee Chat": {
+    "cats": [
+      52
+    ],
+    "description": "Geniee Chat is a chat-based web customer service platform.",
+    "icon": "GenieeChat.svg",
+    "js": {
+      "GenooCSS.add": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "\\.chamo-chat\\.com/",
+    "website": "https://chamo-chat.com"
+  },
+  "Genoo": {
+    "cats": [
+      32
+    ],
+    "description": "Genoo is a provider of marketing automation and online marketing tools.",
+    "icon": "Genoo.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://genoo.com"
+  },
   "Gentoo": {
     "cats": [
       28
@@ -632,6 +666,30 @@
       "GSFN": ""
     },
     "website": "https://getsatisfaction.com/corp/"
+  },
+  "Get Siimple": {
+    "cats": [
+      51
+    ],
+    "description": "Get Siimple is a tool that enables the creation of a single-page website without requiring technical or design expertise.",
+    "icon": "GetSiimple.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "analytics\\.getsiimple\\.com/",
+    "website": "https://getsiimple.com"
+  },
+  "GetAuto": {
+    "cats": [
+      6
+    ],
+    "description": "GetAuto is a platform offering an inventory of used cars available for purchase.",
+    "dom": "link[href*='cdn.getauto.com/']",
+    "icon": "GetAuto.svg",
+    "saas": true,
+    "website": "https://getauto.com"
   },
   "GetButton": {
     "cats": [
@@ -692,6 +750,19 @@
     ],
     "saas": true,
     "website": "https://www.getmeashop.com"
+  },
+  "GetMoreStudents": {
+    "cats": [
+      32
+    ],
+    "description": "GetMoreStudents is a platform that supports dance studio owners in increasing class enrollment and boosting profits through marketing automation.",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "app\\.getmorestudents\\.net",
+    "website": "https://getmorestudents.net"
   },
   "GetResponse": {
     "cats": [
@@ -1770,6 +1841,23 @@
     "saas": true,
     "website": "https://goprep.com"
   },
+  "GoSquared": {
+    "cats": [
+      10
+    ],
+    "description": "GoSquared is a web analytics platform positioned as an alternative to Google Analytics.",
+    "icon": "GoSquared.svg",
+    "js": {
+      "GoSquared": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "gosquared\\.js",
+    "website": "https://www.gosquared.com"
+  },
   "GoStats": {
     "cats": [
       10
@@ -1942,6 +2030,16 @@
     },
     "oss": true,
     "website": "https://goober.js.org"
+  },
+  "GoodEshop": {
+    "cats": [
+      6
+    ],
+    "description": "GoodEshop is an online ecommerce management tool.",
+    "icon": "GoodEshop.svg",
+    "saas": true,
+    "scripts": "api\\.goodeshop\\.sk",
+    "website": "https://goodeshop.sk"
   },
   "Google AdSense": {
     "cats": [
@@ -2386,6 +2484,20 @@
     "saas": true,
     "website": "https://www.gorgias.com/"
   },
+  "Goshly": {
+    "cats": [
+      6
+    ],
+    "description": "Goshly is a platform that builds responsive websites for both desktop and mobile, offering features like ecommerce integration and shopping cart functionality.",
+    "icon": "Goshly.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.goshlyanalytics\\.com/",
+    "website": "https://www.goshly.com"
+  },
   "GotiPath": {
     "cats": [
       31
@@ -2666,6 +2778,45 @@
     "scriptSrc": "(?:cdn|id)\\.gravitec\\.(?:media|net)",
     "website": "https://gravitec.net"
   },
+  "Gravito": {
+    "cats": [
+      97
+    ],
+    "cookies": {
+      "gravitoSync": ""
+    },
+    "description": "Gravito is a service that enables centralized consumer consent and the collection of observed data from multiple digital touchpoints, securely integrating it with personal data.",
+    "icon": "Gravito.svg",
+    "js": {
+      "gravito.init": "",
+      "gravitoCMP": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.gravito.net"
+  },
+  "Gravity": {
+    "cats": [
+      52
+    ],
+    "description": "Gravity is a live chat solution designed to facilitate real-time communication for businesses.",
+    "icon": "Gravity.svg",
+    "js": {
+      "gravi_api.chatMode": "",
+      "gravi_init": "",
+      "gravi_version": "^([\\d\\.]+[a-z]?)$\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.gravi\\.org/",
+    "website": "https://gravi.org"
+  },
   "Gravity Forms": {
     "cats": [
       87,
@@ -2708,6 +2859,24 @@
     },
     "website": "https://www.greenvalley.nl/Public/Producten/Content_Management/CMS"
   },
+  "GreenRope": {
+    "cats": [
+      53
+    ],
+    "description": "GreenRope is an all-in-one CRM platform that integrates sales, marketing, and operational tools into a single system for business management.",
+    "icon": "GreenRope.svg",
+    "js": {
+      "bfpd": "app\\.greenrope\\.com"
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.greenrope\\.com/",
+    "website": "https://www.greenrope.com"
+  },
   "GreenStory": {
     "cats": [
       10
@@ -2729,6 +2898,7 @@
       101
     ],
     "description": "Greenhouse is an applicant tracking and hiring tool. Greenhouse features automated workflow, recruitment analytics, CRM, and onboarding.",
+    "dom": "link[href*='cdn\\.greenhouse\\.io/']",
     "icon": "Greenhouse.svg",
     "js": {
       "populateGreenhouseJobs": ""
@@ -2851,6 +3021,39 @@
     "scriptSrc": "\\.groovehq\\.com/",
     "website": "https://www.groovehq.com"
   },
+  "GrooveKart": {
+    "cats": [
+      6
+    ],
+    "description": "GrooveKart is an ecommerce platform for building and managing online stores, offering tools for product listing, payments, and marketing with no additional transaction fees.",
+    "excludes": "PrestaShop",
+    "icon": "GrooveKart.svg",
+    "meta": {
+      "generator": "^GrooveKart$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "onetime"
+    ],
+    "website": "https://groove.cm/store"
+  },
+  "GroovePages": {
+    "cats": [
+      51
+    ],
+    "description": "GroovePages is a cloud-based drag-and-drop website and funnel builder that enables users to create responsive websites, landing pages, and sales funnels without coding.",
+    "dom": "link[href*='//app.groove.cm/groovepages/']",
+    "icon": "GrooveKart.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "onetime"
+    ],
+    "saas": true,
+    "scriptSrc": "//app\\.groove\\.cm/groovepages/",
+    "website": "https://groove.cm/pages"
+  },
   "GroupBy": {
     "cats": [
       29
@@ -2860,6 +3063,24 @@
     "saas": true,
     "scriptSrc": "cdn\\.groupbycloud\\.com",
     "website": "https://groupbyinc.com/"
+  },
+  "GrowSurf": {
+    "cats": [
+      32
+    ],
+    "description": "GrowSurf is a referral marketing software designed to automate viral growth for websites.",
+    "icon": "GrowSurf.svg",
+    "js": {
+      "growsurf.init": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.growsurf\\.com/",
+    "website": "https://growsurf.com"
   },
   "Growave": {
     "cats": [
@@ -2953,6 +3174,25 @@
     "saas": true,
     "scriptSrc": "ib\\.guestonline\\.\\w+",
     "website": "https://www.guestonline.io"
+  },
+  "Guesty": {
+    "cats": [
+      93
+    ],
+    "cookies": {
+      "guesty-muid": "",
+      "guesty-utms": ""
+    },
+    "description": "Guesty is a cloud-based platform, designed exclusively for Airbnb and vacation rental managers.",
+    "dom": "script[id*='guesty-js-extra']",
+    "icon": "Guesty.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.guesty.com/"
   },
   "Guidap": {
     "cats": [

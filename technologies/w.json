@@ -344,7 +344,6 @@
       "X-Powered-By": "WP Rocket(?:/([\\d.]+))?\\;version:\\1",
       "X-Rocket-Nginx-Bypass": ""
     },
-    "html": "<!--[^>]+WP Rocket",
     "icon": "WP Rocket.svg",
     "js": {
       "RocketBrowserCompatibilityChecker": "",
@@ -352,6 +351,9 @@
       "RocketPreloadLinksConfig": "",
       "rocket_lazy": "",
       "rocket_lazyload_css_data": ""
+    },
+    "meta": {
+      "generator": "^WP Rocket ([\\d.]+)\\;version:\\1"
     },
     "pricing": [
       "low",
@@ -526,6 +528,20 @@
     },
     "requires": "WordPress",
     "website": "https://wordpress.org/plugins/wps-visitor-counter/"
+  },
+  "Waaship": {
+    "cats": [
+      99
+    ],
+    "description": "Waaship is an all-in-one fulfillment software designed to manage orders, inventory, picking, packing, and shipping.",
+    "icon": "Waaship.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "platform-app\\.waaship\\.com",
+    "website": "https://waaship.com"
   },
   "Wabi": {
     "cats": [
@@ -861,6 +877,22 @@
     },
     "website": "https://wazimo.com"
   },
+  "WeBlocks": {
+    "cats": [
+      12
+    ],
+    "description": "WeBlocks is an educational platform for creating custom JavaScript and Webflow projects using Blocks.",
+    "icon": "WeBlocks.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "requires": "Webflow",
+    "saas": true,
+    "scriptSrc": "//weblocks\\.io/",
+    "website": "https://www.weblocks.com"
+  },
   "WeTravel": {
     "cats": [
       104
@@ -934,6 +966,25 @@
     ],
     "saas": true,
     "website": "https://weaverse.io"
+  },
+  "Web CEO": {
+    "cats": [
+      10,
+      32,
+      54
+    ],
+    "description": "Web CEO is an all-in-one platform offering tools for SEO, digital marketing, and performance analytics.",
+    "icon": "WebCEO.svg",
+    "meta": {
+      "application-name": "^WebCEO$"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.webceo\\.com/",
+    "website": "https://www.webceo.com"
   },
   "Web Shop Manager": {
     "cats": [
@@ -1152,6 +1203,23 @@
     "saas": true,
     "website": "https://www.webnode.com"
   },
+  "WebQnA": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "WebQnA is a platform that offers generative AI chatbots for businesses to enhance customer interactions and support.",
+    "icon": "WebQnA.svg",
+    "js": {
+      "webqna": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://webqna.ai"
+  },
   "WebRTC": {
     "cats": [
       19
@@ -1305,6 +1373,17 @@
     "scriptSrc": "api\\.weberlo\\.com/",
     "website": "https://www.weberlo.com"
   },
+  "Webestools": {
+    "cats": [
+      5
+    ],
+    "description": "Webestools is a platform offering online tools, including counters and widgets, for various functionalities.",
+    "dom": "iframe[src*='.webestools.com/']",
+    "icon": "Webestools.svg",
+    "saas": true,
+    "scriptSrc": "www\\.webestools\\.com/",
+    "website": "https://www.webestools.com"
+  },
   "Webeyez": {
     "cats": [
       10
@@ -1408,6 +1487,20 @@
     "saas": true,
     "scriptSrc": "\\.webim\\.ru/",
     "website": "https://webim.ru"
+  },
+  "Webinaris": {
+    "cats": [
+      32
+    ],
+    "description": "Webinaris is a platform that automates customer acquisition, allowing businesses to attract more customers with significantly reduced effort.",
+    "icon": "Webinaris.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "webinaris_load",
+    "website": "https://www.webinaris.com"
   },
   "Webix": {
     "cats": [
@@ -1554,6 +1647,42 @@
     ],
     "scripts": "cdn\\.webpushr\\.com/app\\.min\\.js",
     "website": "https://www.webpushr.com"
+  },
+  "Webready": {
+    "cats": [
+      51
+    ],
+    "description": "Webready is a platform that enables users to create custom vacation rental websites.",
+    "icon": "Webready.svg",
+    "js": {
+      "Webready": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://usewebready.com"
+  },
+  "Webreed": {
+    "cats": [
+      1
+    ],
+    "cookies": {
+      "webreed_session": ""
+    },
+    "description": "Webreed is a website-based tool designed for managing animal breeding processes.",
+    "icon": "Webreed.svg",
+    "js": {
+      "webreed.tel_view_url": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.webreed.pet"
   },
   "Webriti Busiprof": {
     "cats": [
@@ -1834,6 +1963,20 @@
     "scriptSrc": "wheelioapp\\.azureedge\\.net",
     "website": "https://wheelio-app.com/"
   },
+  "Wheely Sales": {
+    "cats": [
+      32
+    ],
+    "description": "Wheely Sales is a tool that boosts email opt-in rates using a gamified exit intent popup designed to engage users as they leave a website.",
+    "icon": "WheelSales.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.wheelysales\\.com/",
+    "website": "https://wheelysales.com"
+  },
   "Whistl": {
     "cats": [
       99
@@ -1845,6 +1988,21 @@
       "\\bWhistl\\b"
     ],
     "website": "https://www.whistl.co.uk"
+  },
+  "Whitespark SEO": {
+    "cats": [
+      54
+    ],
+    "description": "Aims to help improve rankings and drive business via Google Search.",
+    "dom": "script[data-gfspw*='rb.whitespark.ca'], div[data-url*='rb.whitespark.ca']",
+    "icon": "Whitespark.svg",
+    "pricing": [
+      "high",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://whitespark.ca/seo-services"
   },
   "Whooshkaa": {
     "cats": [
@@ -2153,6 +2311,27 @@
     "saas": true,
     "website": "https://wisernotify.com"
   },
+  "Wisetracker": {
+    "cats": [
+      10,
+      32
+    ],
+    "description": "Wisetracker is a behavioral analytics and marketing automation tool.",
+    "icon": "Wisetracker.svg",
+    "js": {
+      "DOP_SDK_CONF.adClkEndPoint": "\\.analytics\\.wisetracker\\.co\\.kr",
+      "DOT_ADCLK_ENDPOINT": "\\.analytics\\.wisetracker\\.co\\.kr"
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scripts": "\\.wisetracker\\.co\\.kr",
+    "website": "https://www.wisetracker.co.kr"
+  },
   "Wishlist King": {
     "cats": [
       100
@@ -2431,6 +2610,7 @@
     "dom": ".woocommerce, .woocommerce-no-js, link[rel*='woocommerce']",
     "icon": "WooCommerce.svg",
     "js": {
+      "wc_add_to_cart_params": "",
       "woocommerce_params": ""
     },
     "meta": {
@@ -2633,6 +2813,16 @@
     "scriptSrc": "assets-cdn\\.woowup\\.com/",
     "website": "https://www.woowup.com"
   },
+  "Word of Mouth": {
+    "cats": [
+      90
+    ],
+    "description": "Word of Mouth is a feedback platform that allows users to compare reviews and ratings for various services and businesses.",
+    "icon": "WOMO.svg",
+    "saas": true,
+    "scriptSrc": "www\\.womo\\.com\\.au/",
+    "website": "https://www.wordofmouth.com.au"
+  },
   "WordAds": {
     "cats": [
       36
@@ -2670,6 +2860,7 @@
     ],
     "cpe": "cpe:2.3:a:wordpress:wordpress:*:*:*:*:*:*:*:*",
     "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system.",
+    "dom": "div[class*='wp-block-group'] > div[class*='wp-block-']",
     "headers": {
       "X-Pingback": "/xmlrpc\\.php$",
       "link": "rel=\"https://api\\.w\\.org/\""
@@ -2798,6 +2989,10 @@
     "implies": [
       "WordPress"
     ],
+    "js": {
+      "WordPressPopularPosts": ""
+    },
+    "scripts": "ImportFromWordPressInsideMenu",
     "website": "https://wordpress.com"
   },
   "Wordfence": {

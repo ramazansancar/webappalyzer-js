@@ -187,16 +187,10 @@
     ],
     "cpe": "cpe:2.3:a:modx:modx_revolution:*:*:*:*:*:*:*:*",
     "description": "MODX (originally MODx) is an open source content management system and web application framework for publishing content on the World Wide Web and intranets.",
+    "dom": "form[id*='ajaxSearch_form'], input[id*='ajaxSearch_input']",
     "headers": {
       "X-Powered-By": "^MODX"
     },
-    "html": [
-      "<a[^>]+>Powered by MODX</a>",
-      "<!-- Modx process time debug info -->",
-      "<(?:link|script)[^>]+assets/snippets/\\;confidence:20",
-      "<form[^>]+id=\"ajaxSearch_form\\;confidence:20",
-      "<input[^>]+id=\"ajaxSearch_input\\;confidence:20"
-    ],
     "icon": "MODX.svg",
     "implies": "PHP",
     "js": {
@@ -237,6 +231,22 @@
     "requiresCategory": 6,
     "text": "\\bMRW\\b",
     "website": "https://www.mrw.es"
+  },
+  "MSAAQ": {
+    "cats": [
+      6
+    ],
+    "description": "MSAAQ is a platform that allows users to create, sell, and manage their products or services from a single location.",
+    "icon": "MSAAQ.svg",
+    "meta": {
+      "generator": "msaaq\\.com"
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://msaaq.com"
   },
   "MSHOP": {
     "cats": [
@@ -453,6 +463,7 @@
       "skin/frontend/\\;confidence:50\\;version:\\1",
       "static/_requirejs\\;confidence:50\\;version:2"
     ],
+    "scripts": "Magento",
     "website": "https://magento.com"
   },
   "Magewire": {
@@ -470,6 +481,35 @@
     },
     "oss": true,
     "website": "https://github.com/magewirephp/magewire"
+  },
+  "Magic UI": {
+    "cats": [
+      66
+    ],
+    "description": "Magic UI is a UI library featuring open-source animated components built with React, TypeScript, Tailwind CSS, and Framer Motion.",
+    "dom": "iframe[src*='.magicui.design'],a[href*='magicui.design'] > video[src*='cdn.magicui.design']",
+    "icon": "MagicUI.svg",
+    "oss": true,
+    "website": "https://magicui.design/"
+  },
+  "MagicLabs": {
+    "cats": [
+      69
+    ],
+    "description": "MagicLabs is a platform that simplifies creating and using Web3 wallets by eliminating the need for seed phrases or downloads, providing a way to build on-chain solutions.",
+    "icon": "MagicLabs.svg",
+    "js": {
+      "Magic.AuthEventOnReceived": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.auth\\.magic\\.link",
+    "website": "https://magic.link"
   },
   "Magisto": {
     "cats": [
@@ -594,11 +634,8 @@
     "dom": [
       "form#mc-embedded-subscribe-form",
       "form[name*='mc-embedded-subscribe-form']",
-      "form[class*='mailchimp-ext-']"
-    ],
-    "html": [
-      "<input [^>]*id=\"mc-email\"\\;confidence:20",
-      "<!-- Begin MailChimp Signup Form -->"
+      "form[class*='mailchimp-ext-']",
+      "input#mc-email\\;confidence:20"
     ],
     "icon": "mailchimp.svg",
     "pricing": [
@@ -904,6 +941,20 @@
     "saas": true,
     "scriptSrc": "\\.manatee\\.io/",
     "website": "https://www.manatee.io"
+  },
+  "MangaReader": {
+    "cats": [
+      80
+    ],
+    "description": "MangaReader is a WordPress theme designed for creating websites, offering customizable layouts and responsive design.",
+    "icon": "MangaReader.svg",
+    "pricing": [
+      "onetime",
+      "low"
+    ],
+    "requires": "WordPress",
+    "scripts": "mangareader\\.themesia",
+    "website": "https://themesia.com/mangareader-wordpress-theme"
   },
   "Mangeznotez": {
     "cats": [
@@ -1242,6 +1293,16 @@
     "scriptSrc": "edge\\.marker\\.io",
     "website": "https://marker.io"
   },
+  "MarketHero": {
+    "cats": [
+      32
+    ],
+    "description": "Market Hero is a platform that automates ROI calculations for ecommerce businesses, streamlining financial performance tracking and providing data-driven insights.",
+    "icon": "MarketHero.svg",
+    "saas": true,
+    "scripts": "tracking\\.markethero\\.io",
+    "website": "https://markethero.io"
+  },
   "MarketPlan": {
     "cats": [
       10,
@@ -1394,6 +1455,16 @@
     "scripts": "app\\.marsello\\.com",
     "website": "https://www.marsello.com"
   },
+  "Mashore Method": {
+    "cats": [
+      53
+    ],
+    "description": "Mashore Method is a CRM software designed for real estate businesses to manage customer relationships in one centralized platform.",
+    "icon": "MashoreMethod.svg",
+    "saas": true,
+    "scripts": "app\\.mashoremethod\\.com",
+    "website": "https://mashoremethod.com"
+  },
   "Massflow": {
     "cats": [
       10
@@ -1508,15 +1579,26 @@
     "scriptSrc": "cdn\\.mapp\\.sa/",
     "website": "https://mapp.sa"
   },
+  "Matchi": {
+    "cats": [
+      72
+    ],
+    "description": "Matchi is a platform for racket sports enthusiasts to search, book, and play tennis, badminton, table tennis, squash, or padel.",
+    "icon": "Matchi.svg",
+    "saas": true,
+    "scriptSrc": "\\.matchi\\.com/",
+    "website": "https://www.matchi.se"
+  },
   "Material Design Lite": {
     "cats": [
       66
     ],
     "description": "Material Design Lite is a library of components for web developers.",
-    "html": "<link[^>]* href=\"[^\"]*material(?:\\.[\\w]+-[\\w]+)?(?:\\.min)?\\.css",
     "icon": "Material Design Lite.svg",
     "js": {
-      "MaterialIconToggle": ""
+      "MaterialButton": "",
+      "MaterialIconToggle": "",
+      "MaterialLayout": ""
     },
     "scriptSrc": "(?:/([\\d.]+))?/material(?:\\.min)?\\.js\\;version:\\1",
     "website": "https://getmdl.io"
@@ -1571,7 +1653,9 @@
     "icon": "Matomo.svg",
     "js": {
       "Matomo": "",
-      "Piwik": ""
+      "Piwik": "",
+      "matomoSitesIDS": "",
+      "matomoTrackPage": ""
     },
     "meta": {
       "apple-itunes-app": "app-id=737216887",
@@ -1696,7 +1780,7 @@
       59
     ],
     "description": "Mavo is a JavaScript library that enables web developers to turn regular HTML into reactive web applications without the need for writing custom JavaScript.",
-    "icon": "default.svg",
+    "icon": "Mavo.svg",
     "js": {
       "Mavo": "",
       "Mavo.version": "v([\\d\\.]+)\\;version:\\1"
@@ -1800,6 +1884,16 @@
     "scriptSrc": "tag\\.measured\\.com",
     "website": "https://www.measured.com"
   },
+  "Meazy": {
+    "cats": [
+      77
+    ],
+    "description": "Meazy is a tool that provides automated remarketing solutions tailored for online stores.",
+    "icon": "Meazy.svg",
+    "saas": true,
+    "scripts": "cdn\\.meazy\\.co/",
+    "website": "https://meazy.co"
+  },
   "Medallia": {
     "cats": [
       10,
@@ -1848,11 +1942,7 @@
     ],
     "cpe": "cpe:2.3:a:mediawiki:mediawiki:*:*:*:*:*:*:*:*",
     "description": "MediaWiki is a free and open-source wiki engine.",
-    "html": [
-      "<body[^>]+class=\"mediawiki\"",
-      "<(?:a|img)[^>]+>Powered by MediaWiki</a>",
-      "<a[^>]+/Special:WhatLinksHere/"
-    ],
+    "dom": "body[class*='mediawiki']",
     "icon": "MediaWiki.svg",
     "implies": "PHP",
     "js": {
@@ -1931,8 +2021,12 @@
     "cats": [
       5
     ],
-    "html": "(?:<iframe id=\"meebo-iframe\"|Meebo\\('domReady'\\))",
+    "description": "Meebo is a widget that is integrated into websites to facilitate link sharing.",
     "icon": "Meebo.png",
+    "js": {
+      "Meebo._": ""
+    },
+    "scriptSrc": "\\.meebo\\.com/",
     "website": "https://www.meebo.com"
   },
   "Meeting Scheduler": {
@@ -1945,6 +2039,21 @@
     "icon": "Meeting Scheduler.svg",
     "scriptSrc": "bookmenow\\.info/(?:runtime|main).+\\.js",
     "website": "https://bookmenow.info"
+  },
+  "Meetup Express": {
+    "cats": [
+      72
+    ],
+    "cookies": {
+      "meetup_express_quick_appointment_session": ""
+    },
+    "description": "Meetup Express is an appointment scheduling system designed to simplify booking and managing meetings.",
+    "icon": "MeetupExpress.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://meetupexpress.com"
   },
   "Megagroup CMS.S3": {
     "cats": [
@@ -1983,7 +2092,6 @@
       "recurring"
     ],
     "saas": true,
-    "scripts": "\\.meilisearch\\.com",
     "website": "https://www.meilisearch.com"
   },
   "Melis Platform": {
@@ -1994,10 +2102,6 @@
       32
     ],
     "cpe": "cpe:2.3:a:melisplatform:melisplatform:*:*:*:*:*:*:*:*",
-    "html": [
-      "<!-- Rendered with Melis CMS V2",
-      "<!-- Rendered with Melis Platform"
-    ],
     "icon": "melis-platform.svg",
     "implies": [
       "Apache HTTP Server",
@@ -2073,6 +2177,22 @@
     "saas": true,
     "website": "https://www.mendix.com"
   },
+  "Mentad": {
+    "cats": [
+      32
+    ],
+    "description": "Mentad is a predictive marketing platform to acquire new customers.",
+    "js": {
+      "mentad_website_id": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "mentad_website_id",
+    "website": "https://www.mentad.com"
+  },
   "Mention Me": {
     "cats": [
       94
@@ -2145,6 +2265,23 @@
     "scriptSrc": "career-analytics\\.mercer\\.com/",
     "website": "https://www.mercer.com"
   },
+  "Mercurycloud": {
+    "cats": [
+      88
+    ],
+    "description": "Mercurycloud is a hosting service provider offering a range of solutions, including web hosting, virtual private servers (VPS), dedicated servers, and game servers.",
+    "headers": {
+      "X-Host": "\\.mercurycloud\\.fr",
+      "X-Powered-By": "MercuryCloud CDN v([\\d\\.]+)\\;version:\\1"
+    },
+    "icon": "Mercurycloud.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://mercurycloud.fr"
+  },
   "Merit": {
     "cats": [
       32
@@ -2165,7 +2302,7 @@
     "cats": [
       25
     ],
-    "html": "<div [^>]*class=[\"']mermaid[\"']>\\;confidence:90",
+    "dom": "div[class*='mermaid']",
     "js": {
       "mermaid": ""
     },
@@ -2211,7 +2348,6 @@
     "cats": [
       1
     ],
-    "html": "<!-- Methode uuid: \"[a-f\\d]+\" ?-->",
     "icon": "Methode.png",
     "meta": {
       "eomportal-id": "\\d+",
@@ -2359,6 +2495,21 @@
     "scriptSrc": "api\\.mginex\\.com/",
     "website": "https://mginex.com"
   },
+  "Miappi": {
+    "cats": [
+      96
+    ],
+    "description": "Miappi is a user-generated content platform designed to build trust and boost sales for brands.",
+    "dom": "script[data-src*='web.miappi.com']",
+    "icon": "Miappi.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "web\\.miappi\\.com/",
+    "website": "https://miappi.com"
+  },
   "MichiJS": {
     "cats": [
       47
@@ -2397,12 +2548,12 @@
     },
     "cpe": "cpe:2.3:a:microsoft:asp.net:*:*:*:*:*:*:*:*",
     "description": "ASP.NET is an open-source, server-side web-application framework designed for web development to produce dynamic web pages.",
+    "dom": "input[name*='__VIEWSTATE']",
     "headers": {
       "X-AspNet-Version": "(.+)\\;version:\\1",
       "X-Powered-By": "^ASP\\.NET",
       "set-cookie": "\\.AspNetCore"
     },
-    "html": "<input[^>]+name=\"__VIEWSTATE",
     "icon": "Microsoft ASP.NET.svg",
     "url": "\\.aspx?(?:$|\\?)",
     "website": "https://www.asp.net"
@@ -2419,8 +2570,7 @@
     "dom": "link[href*='.bing.com']",
     "icon": "Microsoft.svg",
     "js": {
-      "UET": "",
-      "uetq": ""
+      "UET": ""
     },
     "pricing": [
       "payg"
@@ -2527,7 +2677,7 @@
     ],
     "cpe": "cpe:2.3:a:microsoft:excel:*:*:*:*:*:*:*:*",
     "description": "Microsoft Excel is an electronic spreadsheet program used for storing, organizing, and manipulating data.",
-    "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:excel\"|<!--\\s*(?:START|END) OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD\\s*-->|<div [^>]*x:publishsource=\"?Excel\"?)",
+    "dom": "html[xmlns\\:w='urn:schemas-microsoft-com:office:excel'], div[x\\:publishsource='Excel']",
     "icon": "Microsoft Excel.svg",
     "meta": {
       "ProgId": "^Excel\\.",
@@ -2554,7 +2704,7 @@
     ],
     "cpe": "cpe:2.3:a:microsoft:powerpoint:*:*:*:*:*:*:*:*",
     "description": "Microsoft PowerPoint is a tool to create presentations using simple drag and drop tools.",
-    "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:powerpoint\"|<link rel=\"?Presentation-XML\"? href=\"?[^\"]+\\.xml\"?>|<o:PresentationFormat>[^<]+</o:PresentationFormat>[^!]+<o:Slides>\\d+</o:Slides>(?:[^!]+<o:Version>([\\d.]+)</o:Version>)?)\\;version:\\1",
+    "dom": "html[xmlns\\:w='urn:schemas-microsoft-com:office:powerpoint'], link[rel='Presentation-XML'][href*='.xml']",
     "icon": "Microsoft PowerPoint.svg",
     "meta": {
       "ProgId": "^PowerPoint\\.",
@@ -2568,7 +2718,7 @@
     ],
     "cpe": "cpe:2.3:a:microsoft:publisher:*:*:*:*:*:*:*:*",
     "description": "Microsoft Publisher is an application that allows you to create professional documents such as newsletters, postcards, flyers, invitations, brochures.",
-    "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:publisher\"|<!--[if pub]><xml>)",
+    "dom": "html[xmlns\\:w='urn:schemas-microsoft-com:office:publisher']",
     "icon": "Microsoft Publisher.svg",
     "meta": {
       "ProgId": "^Publisher\\.",
@@ -2602,6 +2752,18 @@
     "saas": true,
     "website": "https://sharepoint.microsoft.com"
   },
+  "Microsoft Silverlight": {
+    "cats": [
+      19
+    ],
+    "description": "Microsoft Silverlight is a cross-browser, cross-platform plug-in designed for delivering advanced .NET-based media experiences.",
+    "icon": "MicrosoftSilverlight.svg",
+    "js": {
+      "SILVERLIGHT_SUPPORTED": "",
+      "Silverlight.getSilverlight": ""
+    },
+    "website": "http://silverlight.net"
+  },
   "Microsoft Visual Studio": {
     "cats": [
       47
@@ -2624,7 +2786,7 @@
     ],
     "cpe": "cpe:2.3:a:microsoft:word:*:*:*:*:*:*:*:*",
     "description": "MS Word is a word-processing program used primarily for creating documents.",
-    "html": "(?:<html [^>]*xmlns:w=\"urn:schemas-microsoft-com:office:word\"|<w:WordDocument>|<div [^>]*class=\"?WordSection1[\" >]|<style[^>]*>[^>]*@page WordSection1)",
+    "dom": "html[xmlns\\:w='urn:schemas-microsoft-com:office:word'], div[class*='WordSection1']",
     "icon": "Microsoft Word.svg",
     "meta": {
       "ProgId": "^Word\\.",
@@ -2700,10 +2862,10 @@
     "cats": [
       66
     ],
-    "html": [
-      "<link[^>]+?href=\"[^\"]+milligram(?:\\.min)?\\.css"
-    ],
+    "description": "Milligram is a minimalist CSS framework designed to provide a base for web development projects.",
+    "dom": "link[href*='milligram.css'], link[href*='milligram.min.css']",
     "icon": "Milligram.svg",
+    "oss": true,
     "website": "https://milligram.io"
   },
   "MinMaxify": {
@@ -2825,6 +2987,33 @@
     "saas": true,
     "website": "https://mintlify.com"
   },
+  "Mintox": {
+    "cats": [
+      53
+    ],
+    "description": "Mintox is a business software designed to streamline operations and enhance efficiency.",
+    "icon": "Mintox.svg",
+    "js": {
+      "MintoxJS": "",
+      "mintoxPaging": "",
+      "mintoxTrim": ""
+    },
+    "meta": {
+      "author": "^Mintox"
+    },
+    "saas": true,
+    "website": "https://www.mintox.com"
+  },
+  "Mirador": {
+    "cats": [
+      95
+    ],
+    "description": "Mirador is a platform designed to enhance customer acquisition, streamline digital loan applications, and enable intelligent product routing and digitization.",
+    "icon": "Mirador.svg",
+    "saas": true,
+    "scriptSrc": "\\.miradorfin\\.com",
+    "website": "https://www.miradortech.com"
+  },
   "Mirai": {
     "cats": [
       53
@@ -2879,7 +3068,6 @@
       2
     ],
     "description": "Misskey is a distributed microblogging platform.",
-    "html": "<!-- Thank you for using Misskey! @syuilo -->",
     "icon": "Misskey.svg",
     "meta": {
       "application-name": "Misskey"
@@ -2959,6 +3147,7 @@
         "mixpanel-domain-verify"
       ]
     },
+    "dom": "meta[http-equiv='Content-Security-Policy'][content*='api.mixpanel.com']",
     "icon": "Mixpanel.svg",
     "js": {
       "mixpanel": ""
@@ -3052,9 +3241,6 @@
       51
     ],
     "description": "Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing pages, online resumes and portfolios.",
-    "html": [
-      "<!-- Site made with Mobirise Website Builder v([\\d.]+)\\;version:\\1"
-    ],
     "icon": "mobirise.svg",
     "meta": {
       "generator": "^Mobirise v([\\d.]+)\\;version:\\1"
@@ -3195,13 +3381,23 @@
     ],
     "website": "https://webpack.js.org/concepts/module-federation/"
   },
+  "Modulify": {
+    "cats": [
+      51
+    ],
+    "description": "Modulify is a platform that enables the creation and deployment of scalable websites.",
+    "dom": "html[data-wf-domain^='mdlfy-']",
+    "icon": "Modulify.svg",
+    "saas": true,
+    "website": "https://modulify.ai"
+  },
   "Moguta.CMS": {
     "cats": [
       1,
       6
     ],
     "description": "Moguta is a Russian-based ecommerce platform that provides tools and solutions for creating and managing online stores.",
-    "html": "<link[^>]+href=[\"'][^\"]+mg-(?:core|plugins|templates)/",
+    "dom": "link[href*='mg-core/'], link[href*='mg-plugins/'], link[href*='mg-templates/']",
     "icon": "Moguta.CMS.svg",
     "implies": "PHP",
     "pricing": [
@@ -3263,6 +3459,22 @@
     "oss": true,
     "website": "https://mojolicio.us"
   },
+  "Mokini": {
+    "cats": [
+      32
+    ],
+    "description": "Mokini is a marketing automation platform designed for ecommerce businesses with customizable templates, user segmentation, and scheduling.",
+    "icon": "Mokini.svg",
+    "js": {
+      "mokiniSettings": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.mokini.com"
+  },
   "Mokka": {
     "cats": [
       41,
@@ -3273,6 +3485,25 @@
     "saas": true,
     "scriptSrc": "revoiframe\\.js",
     "website": "https://mokka.ro"
+  },
+  "Molin AI": {
+    "cats": [
+      53
+    ],
+    "description": "Molin AI is a multilingual tool that reduces support volume by 70%, recommends relevant products to shoppers, and uses up-to-date information from client websites to enhance store revenue.",
+    "icon": "MolinAI.svg",
+    "js": {
+      "__INIT_MOLIN_SHOP_AI": "",
+      "__INIT_MOLIN_SHOP_AI_OPTIONS": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.molin\\.ai/",
+    "website": "https://molin.ai"
   },
   "Mollie": {
     "cats": [
@@ -3292,7 +3523,6 @@
       16
     ],
     "cpe": "cpe:2.3:a:acquia:mollom:*:*:*:*:*:*:*:*",
-    "html": "<img[^>]+\\.mollom\\.com",
     "icon": "Mollom.png",
     "scriptSrc": "mollom(?:\\.min)?\\.js",
     "website": "https://mollom.com"
@@ -3520,6 +3750,20 @@
     "scriptSrc": "monotracker(?:\\.min)?\\.js",
     "website": "https://www.mono.net/en"
   },
+  "Monocle": {
+    "cats": [
+      32
+    ],
+    "description": "Monocle is an AI-powered platform that optimizes incentives to boost profits while maintaining brand equity and margins.",
+    "icon": "Monocle.svg",
+    "js": {
+      "monocle.config": "",
+      "monocle_popup_id_variants": ""
+    },
+    "saas": true,
+    "scriptSrc": "\\.usemonocle\\.com/",
+    "website": "https://www.usemonocle.com"
+  },
   "Monsido": {
     "cats": [
       10,
@@ -3600,7 +3844,6 @@
     },
     "cpe": "cpe:2.3:a:moodle:moodle:*:*:*:*:*:*:*:*",
     "description": "Moodle is a free and open-source Learning Management System (LMS) written in PHP and distributed under the GNU General Public License.",
-    "html": "<img[^>]+moodlelogo",
     "icon": "Moodle.svg",
     "implies": "PHP",
     "js": {
@@ -3638,6 +3881,20 @@
     "saas": true,
     "website": "https://www.mooveagency.com/wordpress/gdpr-cookie-compliance-plugin"
   },
+  "Moovin": {
+    "cats": [
+      6
+    ],
+    "description": "Moovin is an ecommerce platform.",
+    "icon": "Moovin.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.moovin\\.(com|store)",
+    "website": "https://moovin.com.br"
+  },
   "Mopinion": {
     "cats": [
       13
@@ -3664,6 +3921,21 @@
     "icon": "Moshimo.svg",
     "scriptSrc": "\\.moshimo\\.com/af/",
     "website": "https://af.moshimo.com"
+  },
+  "Mosio": {
+    "cats": [
+      73
+    ],
+    "description": "Mosio is a text messaging software solution for research that supports participant communication and data collection.",
+    "icon": "Mosio.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "chat\\.mosio\\.com/",
+    "website": "https://www.mosio.com"
   },
   "Motherhost": {
     "cats": [
@@ -3714,7 +3986,7 @@
     "cats": [
       1
     ],
-    "html": "<link [^>]*href=\"[^>]*\\/mt-content\\/[^>]*\\.css",
+    "dom": "link[href*='/mt-content/assets/styles.css']",
     "icon": "MotoCMS.svg",
     "implies": [
       "PHP",
@@ -3839,6 +4111,22 @@
     "url": "/mozard/!suite",
     "website": "https://mozard.nl"
   },
+  "MsCode.pl": {
+    "cats": [
+      47
+    ],
+    "description": "MsCode.pl is a platform focused on developing innovative solutions in programming, hosting, and marketing.",
+    "headers": {
+      "X-Hosting-Provider": "MsCode\\.pl"
+    },
+    "icon": "MsCode.svg",
+    "meta": {
+      "application-name": "MsCode\\.pl"
+    },
+    "oss": true,
+    "saas": true,
+    "website": "https://mscode.pl"
+  },
   "MudBlazor": {
     "cats": [
       66
@@ -3855,6 +4143,18 @@
       "_content/MudBlazor/MudBlazor\\.min\\.js"
     ],
     "website": "https://mudblazor.com/"
+  },
+  "Mul-Pay": {
+    "cats": [
+      41
+    ],
+    "description": "Mul-Pay is a payment gateway platform from Japan.",
+    "js": {
+      "Multipayment.config": ""
+    },
+    "saas": true,
+    "scriptSrc": "static\\.mul-pay\\.jp/",
+    "website": "https://static.mul-pay.jp"
   },
   "Mulberry": {
     "cats": [
@@ -3891,6 +4191,23 @@
     ],
     "saas": true,
     "website": "https://www.getmura.com"
+  },
+  "Muscula": {
+    "cats": [
+      13
+    ],
+    "description": "Muscula is an error logging solution that collects and analyzes errors for websites or applications, providing actionable insights.",
+    "icon": "Muscula.svg",
+    "js": {
+      "Muscula.settings": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.muscula.com/"
   },
   "Mustache": {
     "cats": [
@@ -4165,6 +4482,19 @@
     },
     "website": "https://myhkw.cn"
   },
+  "Myli": {
+    "cats": [
+      90
+    ],
+    "description": "Myli is a platform enhancing customer experience, streamlining reputation management, and facilitating consumer acquisition.",
+    "icon": "Myli.svg",
+    "js": {
+      "myli_push.geolocate": ""
+    },
+    "saas": true,
+    "scriptSrc": "cdn-app\\.myli\\.io/",
+    "website": "https://www.myli.io"
+  },
   "Mynetcap": {
     "cats": [
       1
@@ -4318,6 +4648,22 @@
     "scripts": "microCMS:",
     "website": "https://microcms.io",
     "xhr": "\\.microcms\\.io"
+  },
+  "miniCal": {
+    "cats": [
+      1
+    ],
+    "description": "miniCal is an open-source property management system.",
+    "icon": "miniCal.svg",
+    "js": {
+      "miniCal.projectUrl": "app\\.minical\\.io"
+    },
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "poa"
+    ],
+    "website": "https://www.minical.io"
   },
   "mini_httpd": {
     "cats": [

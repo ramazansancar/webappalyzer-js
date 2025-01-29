@@ -17,7 +17,6 @@
       19
     ],
     "description": "K2 is a content management extension for Joomla, developed by JoomlaWorks, that enhances Joomla's capabilities by providing features like rich content forms, nested categories, tags, comments, and more.",
-    "html": "<!--(?: JoomlaWorks \"K2\"| Start K2)",
     "icon": "K2.svg",
     "implies": "Joomla",
     "js": {
@@ -91,6 +90,19 @@
     ],
     "saas": false,
     "website": "https://www.kqs.pl"
+  },
+  "KUKUI": {
+    "cats": [
+      32
+    ],
+    "description": "KUKUI is an all-in-one solution designed to enhance profitability, streamline lead management, and boost customer engagement for shop marketing.",
+    "icon": "KUKUI.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.kukui\\.com/",
+    "website": "https://www.kukui.com"
   },
   "KaTeX": {
     "cats": [
@@ -282,6 +294,23 @@
     "scriptSrc": "cdn\\.mykamva\\.ir",
     "website": "https://kamva.ir"
   },
+  "Kangaroo Rewards": {
+    "cats": [
+      84
+    ],
+    "description": "Kangaroo Rewards is a platform designed to help businesses grow by fostering customer loyalty and enhancing brand recognition.",
+    "icon": "KangarooRewards.svg",
+    "js": {
+      "KangarooApps.Loyalties": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "www\\.kangaroorewards\\.com/",
+    "website": "https://loyalty.kangaroorewards.com"
+  },
   "Kapix Studio": {
     "cats": [
       51
@@ -450,6 +479,20 @@
     },
     "oss": true,
     "website": "https://keen-slider.io"
+  },
+  "Keepeek": {
+    "cats": [
+      7,
+      95
+    ],
+    "description": "Keepeek is a digital asset management and photo library solutions provider.",
+    "icon": "Keepeek.svg",
+    "js": {
+      "keepeekScrollToName": ""
+    },
+    "requires": "jQuery",
+    "saas": true,
+    "website": "https://www.keepeek.com"
   },
   "KelonCloud": {
     "cats": [
@@ -671,7 +714,6 @@
       "kbn-name": "kibana",
       "kbn-version": "^([\\d.]+)$\\;version:\\1"
     },
-    "html": "<title>Kibana</title>",
     "icon": "kibana.svg",
     "implies": [
       "Node.js",
@@ -983,7 +1025,7 @@
       67
     ],
     "description": "Klaro is a simple consent management platform and privacy tool.",
-    "icon": "Klaro.png",
+    "icon": "Klaro.svg",
     "js": {
       "klaro": "",
       "klaroConfig": ""
@@ -1209,6 +1251,25 @@
     "saas": true,
     "website": "https://www.knockcrm.com"
   },
+  "Knock Knock App": {
+    "cats": [
+      52
+    ],
+    "description": "Knock Knock App is a video call solution for instant communication with website visitors, designed to optimize inbound inquiries and increase sales from website and landing page traffic.",
+    "icon": "KnockKnockApp.svg",
+    "js": {
+      "Knock_knock_user": "",
+      "knock_widget_init": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.knock-knockapp\\.com",
+    "website": "https://knockknockapp.ai"
+  },
   "Knockout.js": {
     "cats": [
       12
@@ -1293,7 +1354,6 @@
     ],
     "cpe": "cpe:2.3:a:koala-framework:koala_framework:*:*:*:*:*:*:*:*",
     "description": "Koala Framework is an open-source PHP web application framework designed for scalable and modular development, emphasizing MVC architecture and component-based design.",
-    "html": "<!--[^>]+This website is powered by Koala Web Framework CMS",
     "icon": "Koala Framework.svg",
     "implies": "PHP",
     "meta": {
@@ -1391,7 +1451,6 @@
     },
     "description": "Koken is a free web site publishing system developed for photographers, designers, artists and creative DIYs.",
     "dom": "html[lang='en'][class*='k-source-essays']",
-    "html": "<!--\\s+KOKEN DEBUGGING",
     "icon": "Koken.svg",
     "implies": [
       "PHP",
@@ -1444,6 +1503,19 @@
     "saas": true,
     "scriptSrc": "\\.k-analytix\\.com",
     "website": "https://www.konduto.com"
+  },
+  "Konfidency Reviews": {
+    "cats": [
+      90
+    ],
+    "description": "Konfidency Reviews is a platform that builds trust, boosts organic traffic, and supports purchasing decisions by providing reviews from customers who are familiar with the products.",
+    "icon": "KonfidencyReviews.svg",
+    "js": {
+      "konfidencyCustomer": "",
+      "konfidencyLoader": ""
+    },
+    "saas": true,
+    "website": "https://www.konfidency.com.br"
   },
   "Kong": {
     "cats": [
@@ -1513,7 +1585,6 @@
     "cats": [
       1
     ],
-    "html": "<!--[^K>-]+Koobi ([a-z\\d.]+)\\;version:\\1",
     "icon": "Koobi.png",
     "meta": {
       "generator": "Koobi"
@@ -1657,6 +1728,16 @@
     },
     "website": "https://kudobuzz.com/"
   },
+  "Kueez": {
+    "cats": [
+      36
+    ],
+    "description": "Kueez is a platform offering data-driven solutions tailored for publishers to enhance advertising strategies.",
+    "icon": "Kueez.svg",
+    "saas": true,
+    "scriptSrc": "\\.kueez\\.net/",
+    "website": "https://weare.kueez.com"
+  },
   "KueskiPay": {
     "cats": [
       41,
@@ -1675,6 +1756,36 @@
     ],
     "scriptSrc": "cdn\\.kueskipay\\.com",
     "website": "https://kueskipay.com/"
+  },
+  "Kuroco": {
+    "cats": [
+      47
+    ],
+    "description": "Kuroco is an API-centric platform that enables developers to create customizable APIs, manage content, and leverage a CDN for fast content delivery across various devices.",
+    "headers": {
+      "x-kuroco-edge-log": "",
+      "x-rcms-hash": ""
+    },
+    "icon": "Kuroco.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://kuroco.app"
+  },
+  "KuronekoServer CDN": {
+    "cats": [
+      31
+    ],
+    "description": "KuronekoServer CDN is a distributed content delivery network utilizing VPS and Cloudflare to enhance performance and reliability.",
+    "dom": "link[href*='cdn.krnk.org/']",
+    "icon": "KuronekoServerCDN.svg",
+    "saas": true,
+    "scripts": "cdn\\.krnk\\.org/",
+    "website": "https://cdn.krnk.org"
   },
   "Kustomer": {
     "cats": [
