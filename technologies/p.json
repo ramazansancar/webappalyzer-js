@@ -833,6 +833,41 @@
     "scriptSrc": "\\.1password\\.com/",
     "website": "https://passage.1password.com"
   },
+  "Passle": {
+    "cats": [
+      32
+    ],
+    "description": "Passle is a digital marketing platform designed to help professionals create and share expert-led content.",
+    "icon": "Passle.svg",
+    "js": {
+      "Passel.API": "",
+      "PassleEnvironmentConfig": "",
+      "PassleEvents": "",
+      "PassleFunctions": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://home.passle.net"
+  },
+  "Passport.js": {
+    "cats": [
+      69
+    ],
+    "description": "Passport.js is an authentication middleware for Node.js, supporting various strategies to enable user authentication in web applications.",
+    "icon": "Passport.svg",
+    "implies": "Node.js",
+    "js": {
+      "Passport.Core": "",
+      "Passport.Core.VERSION": "([\\d.]+)\\;version:\\1",
+      "PassportHandler": "",
+      "_passport_html": ""
+    },
+    "oss": true,
+    "saas": true,
+    "website": "https://www.passportjs.org"
+  },
   "PathFactory": {
     "cats": [
       32
@@ -1099,6 +1134,23 @@
     "scriptSrc": "payl8r\\.com",
     "website": "https://payl8r.com/"
   },
+  "Payload CMS": {
+    "cats": [
+      1
+    ],
+    "description": "Payload CMS is a headless and extensible JavaScript content management system designed for application development.",
+    "icon": "PayloadCMS.svg",
+    "oss": true,
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "payloadcms\\.com",
+    "website": "https://payloadcms.com"
+  },
   "Paylocity": {
     "cats": [
       101
@@ -1222,6 +1274,19 @@
     "saas": true,
     "scriptSrc": "cdn\\.pbbl\\.co/",
     "website": "https://www.pebblepost.com"
+  },
+  "Peddle": {
+    "cats": [
+      6
+    ],
+    "description": "Peddle is a platform offering instant cash offers for cars, streamlining the selling process.",
+    "icon": "Peddle.svg",
+    "js": {
+      "PeddlePublisherEmbed": "",
+      "PeddlePublisherEmbedConfig": ""
+    },
+    "saas": true,
+    "website": "https://www.peddle.com"
   },
   "Peek": {
     "cats": [
@@ -1745,6 +1810,21 @@
     },
     "website": "https://github.com/Sazito/phoenix/"
   },
+  "Phoenix Cart": {
+    "cats": [
+      6
+    ],
+    "cookies": {
+      "ceid": ""
+    },
+    "description": "Phoenix Cart is an open source software that allows users to set up an online store and sell their products.",
+    "icon": "PhoenixCart.svg",
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "website": "https://phoenixcart.org"
+  },
   "Phoenix Framework": {
     "cats": [
       18
@@ -1997,6 +2077,20 @@
     "saas": true,
     "scriptSrc": "cdn\\.pickystory\\.com/",
     "website": "https://pickystory.com"
+  },
+  "Pickzen": {
+    "cats": [
+      29
+    ],
+    "description": "Pickzen is an AI-powered tool designed for conversational search.",
+    "icon": "Pickzen.svg",
+    "js": {
+      "pickzen.server": "",
+      "pickzenLoaded": "",
+      "pickzenonActivation": ""
+    },
+    "saas": true,
+    "website": "https://www.pickzen.com"
   },
   "Pico": {
     "cats": [
@@ -2708,6 +2802,20 @@
     "scriptSrc": "api\\.plezi\\.co",
     "website": "https://www.plezi.co"
   },
+  "Pliek": {
+    "cats": [
+      32
+    ],
+    "description": "Pliek is a system that provides live sales notifications, enabling real-time updates on purchase activities.",
+    "js": {
+      "pliekConfig.key": ""
+    },
+    "pricing": [
+      "onetime"
+    ],
+    "saas": true,
+    "website": "https://pliek.io"
+  },
   "Pligg": {
     "cats": [
       1
@@ -2867,6 +2975,24 @@
     ],
     "saas": true,
     "website": "https://www.podigee.com"
+  },
+  "Podio": {
+    "cats": [
+      53
+    ],
+    "description": "Podio is a customizable social work platform for collaboration with co-workers and clients, enabling task management and communication.",
+    "icon": "Podio.svg",
+    "js": {
+      "_podioWebForm": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "//podio\\.com/",
+    "website": "https://www.podio.com"
   },
   "Podium": {
     "cats": [
@@ -3074,6 +3200,23 @@
     "scriptSrc": "//poppins\\.so/",
     "website": "https://poppins.so"
   },
+  "Poptin": {
+    "cats": [
+      32
+    ],
+    "description": "Poptin is a platform designed to engage visitors and coverts them into leads, subscribers and sales.",
+    "icon": "Poptin.svg",
+    "js": {
+      "poptinAfterPageLoad": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.popt\\.in/",
+    "website": "https://www.poptin.com"
+  },
   "PopularFX": {
     "cats": [
       80
@@ -3125,6 +3268,23 @@
     "saas": true,
     "scriptSrc": "cdn\\.popupular\\.io/",
     "website": "https://popupular.io"
+  },
+  "Porch": {
+    "cats": [
+      19
+    ],
+    "cookies": {
+      "PorchBITracking": ""
+    },
+    "description": "Porch is a moving management system that simplifies moving, insurance, and home improvement processes.",
+    "icon": "Porch.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.porch\\.com/",
+    "website": "https://porch.com"
   },
   "Portal": {
     "cats": [
@@ -3923,6 +4083,7 @@
       "Cart Functionality"
     ],
     "scriptSrc": "static\\.cdn\\.printful\\.com",
+    "scripts": "api\\.printful\\.com",
     "website": "https://www.printful.com/"
   },
   "Priority Hints": {
@@ -4062,6 +4223,20 @@
     "saas": true,
     "website": "https://www.procurios.com"
   },
+  "ProdPad": {
+    "cats": [
+      53
+    ],
+    "description": "ProdPad is a product management software platform enabling teams to gather ideas, set priorities, and create adaptable product roadmaps.",
+    "icon": "ProdPad.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.prodpad\\.com/",
+    "website": "https://www.prodpad.com"
+  },
   "Product Hunt": {
     "cats": [
       19
@@ -4128,6 +4303,22 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/wp-user-avatar(?:-pro)?/.+frontend\\.min\\.js(?:\\?ver=(\\d+(?:\\.\\d+)+))?\\;version:\\1",
     "website": "https://profilepress.net"
+  },
+  "Profit Lifter": {
+    "cats": [
+      32
+    ],
+    "description": "Profit Lifter is an AI-powered platform enabling automated website creation, sales funnels, and email campaigns designed to attract and convert leads into sales.",
+    "icon": "ProfitLifter.svg",
+    "pricing": [
+      "onetime",
+      "low",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "scripts": "app\\.profitlifter\\.com",
+    "website": "https://profitlifter.com"
   },
   "Profitwell": {
     "cats": [

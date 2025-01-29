@@ -103,6 +103,20 @@
     "saas": true,
     "website": "https://ltheme.com"
   },
+  "Labrador CMS": {
+    "cats": [
+      1
+    ],
+    "description": "Labrador CMS is a cloud-based CMS for professional publishers and newsrooms.",
+    "icon": "LabradorCMS.svg",
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "Device from labrador",
+    "website": "https://www.labradorcms.com"
+  },
   "Ladipage": {
     "cats": [
       51
@@ -291,6 +305,21 @@
       "events\\.launchdarkly\\.com"
     ]
   },
+  "LaunchNotes": {
+    "cats": [
+      85
+    ],
+    "description": "LaunchNotes is a platform that aligns teams with product development and release pipelines while keeping users informed and engaged with product updates.",
+    "icon": "LaunchNotes.svg",
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.launchnotes\\.com/",
+    "website": "https://launchnotes.com"
+  },
   "Launchrock": {
     "cats": [
       51,
@@ -450,6 +479,20 @@
     "saas": true,
     "scriptSrc": "app\\.lead-concept\\.com/",
     "website": "https://www.lead-concept.com"
+  },
+  "Lead Prosper": {
+    "cats": [
+      32
+    ],
+    "description": "Lead Prosper is a lead distribution platform that facilitates connections between lead suppliers and lead buyers.",
+    "icon": "LeadProsper.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "api\\.leadprosper\\.io",
+    "website": "https://leadprosper.io"
   },
   "LeadBoxer": {
     "cats": [
@@ -704,6 +747,20 @@
     "scriptSrc": "app\\.leadteh\\.ru/",
     "website": "https://leadteh.ru"
   },
+  "Leady": {
+    "cats": [
+      10
+    ],
+    "description": "Leady is a lead generation and customer intelligence solution.",
+    "icon": "Leady.svg",
+    "js": {
+      "_leady.push": "",
+      "leady_track_key": ""
+    },
+    "saas": true,
+    "scriptSrc": "\\.leady\\.com/",
+    "website": "https://leady.cz"
+  },
   "Leaflet": {
     "cats": [
       35
@@ -862,9 +919,6 @@
       1
     ],
     "description": "Lede is a publishing platform and growth program designed to support journalism startups and news media.",
-    "html": [
-      "<a [^>]*href=\"[^\"]+joinlede.com"
-    ],
     "icon": "lede.svg",
     "implies": [
       "WordPress",
@@ -946,7 +1000,7 @@
       18
     ],
     "description": "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces.",
-    "html": "<!--hk=_.*",
+    "dom": "link[id^='leptos']",
     "icon": "Leptos.svg",
     "implies": "Rust",
     "js": {
@@ -967,6 +1021,22 @@
     "icon": "Less.svg",
     "oss": true,
     "website": "https://lesscss.org"
+  },
+  "Let's Connect": {
+    "cats": [
+      52
+    ],
+    "description": "Let's Connect is a digital tool for businesses to manage customer interactions and communications.",
+    "icon": "LetsConnect.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.letsconnect\\.at/",
+    "website": "https://www.letsconnect.at"
   },
   "Let's Encrypt": {
     "cats": [
@@ -1174,7 +1244,6 @@
     "cookies": {
       "lm_online": ""
     },
-    "html": "<!-- Lightmon Engine Copyright Lightmon",
     "icon": "LightMon Engine.png",
     "implies": "PHP",
     "meta": {
@@ -1227,7 +1296,6 @@
     "cats": [
       6
     ],
-    "html": "<!-- \\[START\\] 'blocks/head\\.rain' -->",
     "icon": "Lightspeed.svg",
     "pricing": [
       "low"
@@ -1410,6 +1478,25 @@
     "oss": true,
     "website": "https://www.linen.dev"
   },
+  "Linguana": {
+    "cats": [
+      54
+    ],
+    "description": "Linguana is a tool that provides AI-driven multi-language support ensuring SEO performance with translations and translated slugs for seamless multilingual user experiences.",
+    "icon": "Linguana.svg",
+    "js": {
+      "LINGUANA_MAIN_LANGUAGE_CODE": "",
+      "LINGUANA_SHOW_LANGUAGE_CODE": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "static\\.linguana\\.io/",
+    "website": "https://www.linguana.io/"
+  },
   "Linguise": {
     "cats": [
       89
@@ -1466,7 +1553,6 @@
     "headers": {
       "Content-Security-Policy": "px\\.ads\\.linkedin\\.com"
     },
-    "html": "<img [^>]*src=\"[^/]*//[^/]*px\\.ads\\.linkedin\\.com",
     "icon": "Linkedin.svg",
     "website": "https://business.linkedin.com/marketing-solutions/ads"
   },
@@ -1498,7 +1584,7 @@
       "OnLinkedInAuth": "",
       "onLinkedInLoad": ""
     },
-    "scriptSrc": "platform\\.linkedin\\.com/(?:.*)?in\\.js(?:\\?version)?([\\d.]+)?\\;version:\\1",
+    "scriptSrc": "platform\\.linkedin\\.com/(?:.*)?(?:in\\.js(?:\\?version)?([\\d.]+)?|litms/utag/[^?]+\\.js(?:\\?cb=[\\d]+)?)",
     "website": "https://www.linkedin.com/developers"
   },
   "Linx Commerce": {
@@ -1589,6 +1675,25 @@
     ],
     "website": "https://listjs.com"
   },
+  "Listagram": {
+    "cats": [
+      75
+    ],
+    "description": "Listagram is a list building tool which increases conversions by turning newsletter signups into a game.",
+    "icon": "Listagram.svg",
+    "js": {
+      "LISTAGRAM.config": "",
+      "LISTAGRAM_CFG.base_api": "www\\.listagram\\.com"
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "www\\.listagram\\.com",
+    "website": "https://www.listagram.com"
+  },
   "Listrak": {
     "cats": [
       32,
@@ -1648,7 +1753,6 @@
     "cookies": {
       "LithiumVisitor": ""
     },
-    "html": " <a [^>]+Powered by Lithium",
     "icon": "Lithium.png",
     "implies": "PHP",
     "js": {
@@ -2157,13 +2261,13 @@
       1
     ],
     "description": "LocomotiveCMS is a Ruby on Rails-based content management system (CMS) known for its flexibility and developer-friendly approach to building and managing websites.",
-    "html": "<link[^>]*/sites/[a-z\\d]{24}/theme/stylesheets",
     "icon": "LocomotiveCMS.svg",
     "implies": [
       "Ruby on Rails",
       "MongoDB"
     ],
     "oss": true,
+    "scriptSrc": "cdn\\.locomotive\\.works/",
     "website": "https://www.locomotivecms.com"
   },
   "Lodash": {
@@ -2616,6 +2720,25 @@
     "scriptSrc": "sdk\\.loyaltylion\\.net/",
     "website": "https://loyaltylion.com"
   },
+  "LoyaltyLoop": {
+    "cats": [
+      90
+    ],
+    "description": "LoyaltyLoop is an online review management platform that leverages customer loyalty surveys and Net Promoter Score tracking to enhance business reputation and strengthen customer relationships.",
+    "icon": "LoyaltyLoop.svg",
+    "js": {
+      "LoyaltyLoopEventListenerInitialized": "",
+      "countOfLoyaltyLoopTestimonialWidgets": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.loyaltyloop\\.com/",
+    "website": "https://loyaltyloop.com"
+  },
   "Lozad.js": {
     "cats": [
       59,
@@ -2723,6 +2846,17 @@
     "oss": true,
     "website": "https://lume.land"
   },
+  "Lumino": {
+    "cats": [
+      10
+    ],
+    "description": "Lumino is a data platform that helps Shopify brands optimize marketing, conversions, and user experience by leveraging data.",
+    "icon": "Lumino.svg",
+    "requires": "Shopify",
+    "saas": true,
+    "scripts": "api\\.getlumino\\.ai",
+    "website": "https://getlumino.ai"
+  },
   "Lumio": {
     "cats": [
       10
@@ -2807,6 +2941,20 @@
     ],
     "saas": true,
     "website": "https://lunio.ai"
+  },
+  "Luveedu Cloud": {
+    "cats": [
+      88
+    ],
+    "description": "Luveedu Cloud is a domain and web hosting platform.",
+    "icon": "LuveeduCloud.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.luveedu\\.com/",
+    "website": "https://cloud.luveedu.com"
   },
   "Lychee": {
     "cats": [

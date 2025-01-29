@@ -108,6 +108,7 @@
     ],
     "cpe": "cpe:2.3:a:ckeditor:ckeditor:*:*:*:*:*:*:*:*",
     "description": "CKEditor is a WYSIWYG rich text editor which enables writing content directly inside of web pages or online applications. Its core code is written in JavaScript and it is developed by CKSource. CKEditor is available under open-source and commercial licenses.",
+    "dom": "style[data-cke]",
     "icon": "CKEditor.svg",
     "js": {
       "CKEDITOR": "",
@@ -312,6 +313,18 @@
       "\\bCTT\\b"
     ],
     "website": "https://www.ctt.pt"
+  },
+  "CUE": {
+    "cats": [
+      1
+    ],
+    "description": "CUE is a unified media enterprise platform tailored for news media organizations seeking efficiency and revenue growth in the media market.",
+    "icon": "CUE.svg",
+    "pricing": [
+      "poa"
+    ],
+    "scripts": "\\.cue\\.cloud",
+    "website": "https://www.stibodx.com/"
   },
   "Caast.tv": {
     "cats": [
@@ -544,6 +557,20 @@
     "saas": true,
     "scriptSrc": "\\.calenso\\.com/",
     "website": "https://calenso.com"
+  },
+  "CaliberMind": {
+    "cats": [
+      10
+    ],
+    "description": "CaliberMind is a marketing analytics platform designed for B2B marketers to optimize strategies and improve decision-making through data insights.",
+    "icon": "CaliberMind.svg",
+    "js": {
+      "calibermindAddFormListener": "",
+      "calibermindCaptureSubmit": ""
+    },
+    "saas": true,
+    "scriptSrc": "cdn\\.calibermind\\.com",
+    "website": "https://calibermind.com"
   },
   "Call Cap": {
     "cats": [
@@ -835,6 +862,22 @@
     "saas": true,
     "website": "https://www.captivate.fm"
   },
+  "Capturly": {
+    "cats": [
+      10
+    ],
+    "description": "Capturly is an online analytics platform for businesses to analyze user behavior, identify issues, improve conversion rates, and enhance sales.",
+    "icon": "Capturly.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "capturly-track-js\\.js",
+    "website": "https://capturly.com"
+  },
   "Carbon Ads": {
     "cats": [
       36
@@ -1099,6 +1142,25 @@
     "scriptSrc": "\\.cartkitcdn\\.com/",
     "website": "https://www.cartkit.com"
   },
+  "CartPops": {
+    "cats": [
+      6
+    ],
+    "description": "CartPops is a conversion-optimized AJAX fly-out cart solution for WooCommerce that replaces the traditional cart page and is compatible with any theme.",
+    "icon": "CartPops.svg",
+    "implies": "WooCommerce",
+    "js": {
+      "CartPops.drawer": "",
+      "CartPopsConfig": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "requires": "WordPress",
+    "saas": true,
+    "website": "https://cartpops.com"
+  },
   "CartStack": {
     "cats": [
       98
@@ -1315,6 +1377,20 @@
       "\\bCeleritas\\b"
     ],
     "website": "https://celeritastransporte.com"
+  },
+  "Cellxpert": {
+    "cats": [
+      71
+    ],
+    "description": "Cellxpert is a SaaS platform for affiliate and partner program management, providing tools for tracking, reporting, and optimizing performance-based marketing campaigns.",
+    "dom": "link[href*='.cellxpert.com/']",
+    "icon": "Cellxpert.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.cellxpert\\.com/",
+    "website": "https://www.cellxpert.com"
   },
   "Celum": {
     "cats": [
@@ -1695,6 +1771,22 @@
     "scriptSrc": "cdn\\.chatbot\\.com/",
     "website": "https://www.chatbot.com"
   },
+  "ChatFood": {
+    "cats": [
+      52
+    ],
+    "description": "ChatFood is a platform providing mobile ordering tailored for hospitality brands.",
+    "icon": "ChatFood.svg",
+    "js": {
+      "ChatFoodWidget": "",
+      "ChatFoodWidgetClient": ""
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.chatfood.io"
+  },
   "ChatGen": {
     "cats": [
       52
@@ -1794,6 +1886,23 @@
     "scriptSrc": "st\\.chatango\\.com",
     "website": "https://chatango.com"
   },
+  "Chatbaby": {
+    "cats": [
+      52
+    ],
+    "description": "Chatbaby is a service for creating custom ChatGPT chatbots tailored to website content.",
+    "icon": "Chatbaby.svg",
+    "js": {
+      "$$chatbaby": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.chatbaby\\.co/",
+    "website": "https://chatbaby.co"
+  },
   "Chatbase": {
     "cats": [
       52
@@ -1842,6 +1951,44 @@
     "saas": true,
     "scriptSrc": "cdn\\.chatify\\.com/",
     "website": "https://www.chatify.com"
+  },
+  "Chative": {
+    "cats": [
+      52
+    ],
+    "description": "Chative is a platform that provides live chat and chatbot solutions for real-time customer interactions.",
+    "icon": "Chative.svg",
+    "js": {
+      "Chative.app_id": "",
+      "ChativeApi": "",
+      "ChativeEvents": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.chative\\.io/",
+    "website": "https://chative.io"
+  },
+  "Chatlio": {
+    "cats": [
+      52
+    ],
+    "description": "Chatlio is a live chat solution that integrates with Slack, enabling real-time communication and customer support directly within the Slack platform.",
+    "icon": "Chatlio.svg",
+    "js": {
+      "ChatlioReact": "",
+      "ChatlioReactDOM": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "w\\.chatlio\\.com/",
+    "website": "https://chatlio.com"
   },
   "Chatlyn": {
     "cats": [
@@ -1913,6 +2060,24 @@
     "saas": true,
     "scripts": "getchatt\\.com",
     "website": "https://getchatt.com"
+  },
+  "Chatway": {
+    "cats": [
+      52
+    ],
+    "description": "Chatway is a live chat tool for websites, designed to facilitate customer engagement through real-time conversations.",
+    "icon": "Chatway.svg",
+    "js": {
+      "$chatway": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.chatway\\.app/",
+    "website": "https://chatway.app"
   },
   "Chatwoot": {
     "cats": [
@@ -2530,6 +2695,19 @@
     "scripts": "classy\\.org",
     "website": "https://www.classy.org/"
   },
+  "Clear": {
+    "cats": [
+      16
+    ],
+    "description": "Clear is a platform that offers secure identity verification.",
+    "icon": "Clear.svg",
+    "js": {
+      "ClearMe.Environments": "",
+      "clearMeClientID": ""
+    },
+    "saas": true,
+    "website": "https://www.clearme.com"
+  },
   "ClearSale": {
     "cats": [
       10
@@ -2886,6 +3064,22 @@
     "saas": true,
     "website": "https://www.clicksign.com"
   },
+  "Clickskeks": {
+    "cats": [
+      67
+    ],
+    "description": "Clickskeks is an all-in-one cookie consent management platform for businesses.",
+    "icon": "Clickskeks.svg",
+    "js": {
+      "Clickskeks": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.clickskeks.at/"
+  },
   "Clicktripz": {
     "cats": [
       36
@@ -2930,6 +3124,20 @@
     "saas": true,
     "scriptSrc": "static\\.getclicky\\.com",
     "website": "https://getclicky.com"
+  },
+  "Client Chat Live": {
+    "cats": [
+      52
+    ],
+    "description": "Client Chat Live is a tool that converts website visitors into clients through live chat functionality.",
+    "dom": "link[href*='platform.clientchatlive.com/']",
+    "icon": "ClientChatLive.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.clientchatlive\\.com/",
+    "website": "https://clientchatlive.com"
   },
   "ClientJS": {
     "cats": [
@@ -3116,6 +3324,24 @@
     "saas": true,
     "scriptSrc": "\\.cloudengage\\.com/",
     "website": "https://cloudengage.com"
+  },
+  "CloudSponge": {
+    "cats": [
+      94
+    ],
+    "description": "CloudSponge is a software-as-a-service tool for importing contacts from address book providers like Gmail, Yahoo Mail, Outlook.com, iCloud and AOL.",
+    "icon": "CloudSponge.svg",
+    "js": {
+      "cloudsponge.init": "",
+      "cloudspongeProxy": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.cloudsponge\\.com/",
+    "website": "https://www.cloudsponge.com"
   },
   "CloudSuite": {
     "cats": [
@@ -3416,6 +3642,24 @@
     "scriptSrc": "//widget\\.clutch\\.co/",
     "website": "https://clutch.co/content/add-review-widget-your-website"
   },
+  "CmonSite": {
+    "cats": [
+      6
+    ],
+    "description": "CmonSite is a French-based platform for building websites and ecommerce stores.",
+    "icon": "CmonSite.svg",
+    "js": {
+      "BASEURL": "www\\.cmonsite\\.fr",
+      "CmonSite.CookieManagement": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://www.cmonsite.fr"
+  },
   "CoConstruct": {
     "cats": [
       19
@@ -3471,24 +3715,6 @@
     },
     "website": "https://www.coastercms.org"
   },
-  "Cococart": {
-    "cats": [
-      6
-    ],
-    "description": "Cococart is an ecommerce platform.",
-    "dom": [
-      "meta[property='og:image'][content*='static.cococart.co']",
-      "div[style*='static.cococart.co']"
-    ],
-    "icon": "Cococart.svg",
-    "pricing": [
-      "freemium",
-      "recurring",
-      "payg"
-    ],
-    "saas": true,
-    "website": "https://www.cococart.co"
-  },
   "CoconutSoftware": {
     "cats": [
       5,
@@ -3524,7 +3750,7 @@
       "exp_tracker": ""
     },
     "cpe": "cpe:2.3:a:codeigniter:codeigniter:*:*:*:*:*:*:*:*",
-    "html": "<input[^>]+name=\"ci_csrf_token\"\\;version:2+",
+    "dom": "input[name*='ci_csrf_token']",
     "icon": "CodeIgniter.svg",
     "implies": "PHP",
     "website": "https://codeigniter.com",
@@ -4526,6 +4752,22 @@
     "saas": true,
     "website": "https://contently.com"
   },
+  "Contento": {
+    "cats": [
+      1
+    ],
+    "description": "Contento is a headless CMS tailored to prioritize the needs of marketers.",
+    "icon": "Contento.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "assets\\.contento\\.io",
+    "website": "https://www.contento.io"
+  },
   "Contentsquare": {
     "cats": [
       10,
@@ -5134,7 +5376,7 @@
     ],
     "cpe": "cpe:2.3:a:coppermine-gallery:coppermine_photo_gallery:*:*:*:*:*:*:*:*",
     "description": "Coppermine is an open-source image gallery application.",
-    "html": "<!--Coppermine Photo Gallery ([\\d.]+)\\;version:\\1",
+    "dom": "link[href*='/coppermine.css'][rel='stylesheet']",
     "icon": "Coppermine.png",
     "implies": "PHP",
     "website": "https://coppermine-gallery.net"
@@ -5981,6 +6223,20 @@
     "scriptSrc": "assets\\.customer\\.io",
     "website": "https://customer.io/"
   },
+  "CustomerSure": {
+    "cats": [
+      73
+    ],
+    "description": "CustomerSure is a software platform designed to gather, manage, and respond to customer feedback, enhancing satisfaction and driving sales growth.",
+    "icon": "CustomerSure.svg",
+    "pricing": [
+      "high",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "resources\\.customersure\\.com",
+    "website": "https://www.customersure.com"
+  },
   "Customily": {
     "cats": [
       76
@@ -6142,7 +6398,6 @@
     "headers": {
       "Server": "cpsrvd/([\\d.]+)\\;version:\\1"
     },
-    "html": "<!-- cPanel",
     "icon": "cPanel.svg",
     "website": "https://www.cpanel.net"
   },

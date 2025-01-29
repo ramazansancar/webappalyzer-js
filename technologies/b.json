@@ -338,6 +338,16 @@
     "scriptSrc": "\\.bambuser\\.com/",
     "website": "https://bambuser.com"
   },
+  "Banana Splash": {
+    "cats": [
+      32
+    ],
+    "description": "Banana Splash is a mobile lead generation system designed to help businesses attract and capture potential customer information.",
+    "saas": true,
+    "scriptSrc": "my\\.banana-splash\\.com/",
+    "scripts": "my\\.banana-splash\\.com",
+    "website": "https://www.banana-splash.com"
+  },
   "BandsInTown Events Widget": {
     "cats": [
       5
@@ -498,15 +508,6 @@
     },
     "website": "https://tools.ietf.org/html/rfc7617"
   },
-  "Basil.css": {
-    "cats": [
-      66
-    ],
-    "description": "Basil.css is a responsive and customizable UI framework.",
-    "dom": "link[href*='/basil.css'], link[href*='/basilcss']",
-    "icon": "basilcss.svg",
-    "website": "https://basilcss.com"
-  },
   "Basin": {
     "cats": [
       110
@@ -548,6 +549,16 @@
     },
     "saas": true,
     "website": "https://batch.com"
+  },
+  "Batchbook": {
+    "cats": [
+      53
+    ],
+    "description": "Batchbook is a customer relationship management (CRM) tool designed for small businesses.",
+    "dom": "iframe[src*='.batchbook.com']",
+    "saas": true,
+    "scriptSrc": "\\.batchbook\\.com",
+    "website": "https://batchbook.com"
   },
   "Batflat": {
     "cats": [
@@ -793,6 +804,18 @@
     "icon": "Beeswax.svg",
     "scriptSrc": "segment\\.prod\\.bidr\\.io",
     "website": "https://www.beeswax.com/"
+  },
+  "Behzi": {
+    "cats": [
+      51
+    ],
+    "description": "Behzi is an all-in-one Iranian platform providing services such as event organization, tours, school registrations, and store discounts.",
+    "icon": "Behzi.svg",
+    "meta": {
+      "generator": "^Behzi$"
+    },
+    "saas": true,
+    "website": "https://behzi.com"
   },
   "Bench": {
     "cats": [
@@ -1286,7 +1309,6 @@
       "bigwareCsid": ""
     },
     "cpe": "cpe:2.3:a:bigware:bigware_shop:*:*:*:*:*:*:*:*",
-    "html": "(?:Diese <a href=[^>]+bigware\\.de|<a href=[^>]+/main_bigware_\\d+\\.php)",
     "icon": "Bigware.png",
     "implies": "PHP",
     "url": "(?:\\?|&)bigWAdminID=",
@@ -1620,7 +1642,6 @@
     "headers": {
       "X-Powered-By": "^Blitz$"
     },
-    "html": "<!-- Cached by Blitz on",
     "icon": "Blitz.svg",
     "implies": "Craft CMS",
     "js": {
@@ -1699,11 +1720,12 @@
       11
     ],
     "description": "Blogger is a blog-publishing service that allows multi-user blogs with time-stamped entries.",
-    "icon": "Blogger.png",
+    "icon": "Blogger.svg",
     "implies": "Python",
     "meta": {
       "generator": "^Blogger$"
     },
+    "scripts": "blogger\\.googleusercontent\\.com",
     "url": "^https?://[^/]+\\.(?:blogspot|blogger)\\.com",
     "website": "https://www.blogger.com"
   },
@@ -2638,10 +2660,6 @@
         "text": "--bs-(?:gutter|emphasis|space-x|tertiary-bg|secondary-color)"
       }
     },
-    "html": [
-      "<style>\\s+/\\*!\\s+\\* Bootstrap v(\\d\\.\\d\\.\\d)\\;version:\\1",
-      "<link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|[\\d]+(?:.[\\d]+(?:.[\\d]+)?)?)|)[^>-]*?(?:\\.min)?\\.css\\;version:\\1"
-    ],
     "icon": "Bootstrap.svg",
     "js": {
       "bootstrap.Alert.VERSION": "^(.+)$\\;version:\\1",
@@ -2672,7 +2690,7 @@
     "cats": [
       59
     ],
-    "html": "<link[^>]+href=\"[^>]*bootstrap-table(?:\\.min)?\\.css",
+    "dom": "link[href*='bootstrap-table.min.css']",
     "icon": "Bootstrap Table.svg",
     "implies": [
       "Bootstrap",
@@ -2764,6 +2782,26 @@
     "saas": true,
     "scriptSrc": "cdn\\.botpenguin\\.com/",
     "website": "https://botpenguin.com"
+  },
+  "BotStar": {
+    "cats": [
+      52
+    ],
+    "description": "BotStar is a platform for creating chatbots for websites and messaging applications.",
+    "icon": "BotStar.svg",
+    "js": {
+      "BotStar.appId": "",
+      "BotStarApi": "",
+      "BotStarUp": ""
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "payg"
+    ],
+    "saas": true,
+    "website": "https://botstar.com"
   },
   "BotUp": {
     "cats": [
@@ -3013,6 +3051,16 @@
     ],
     "website": "https://www.bpost.be"
   },
+  "Brainlead": {
+    "cats": [
+      32
+    ],
+    "description": "Brainlead is a marketing automation software.",
+    "icon": "Brainlead.svg",
+    "saas": true,
+    "scripts": "app\\.brainlead\\.it",
+    "website": "https://brainlead.it"
+  },
   "Braintree": {
     "cats": [
       41
@@ -3119,17 +3167,6 @@
     "saas": true,
     "scriptSrc": "\\.getbread\\.com",
     "website": "https://www.breadpayments.com"
-  },
-  "Breadcrumb NavXT": {
-    "cats": [
-      87
-    ],
-    "description": "Breadcrumb NavXT is a WordPress plugin compatible with WordPress versions 4.9 and up.",
-    "html": "<!-- Breadcrumb NavXT ([\\d\\.]+)\\;version:\\1",
-    "icon": "Breadcrumb NavXT.svg",
-    "oss": true,
-    "requires": "WordPress",
-    "website": "https://github.com/mtekk/Breadcrumb-NavXT"
   },
   "Breakdance": {
     "cats": [
@@ -3582,12 +3619,7 @@
       "Bugzilla_login_request_cookie": ""
     },
     "cpe": "cpe:2.3:a:mozilla:bugzilla:*:*:*:*:*:*:*:*",
-    "html": [
-      "href=\"enter_bug\\.cgi\">",
-      "<main id=\"bugzilla-body\"",
-      "<a href=\"https?://www\\.bugzilla\\.org/docs/([0-9.]+)/[^>]+>Help<\\;version:\\1",
-      "<span id=\"information\" class=\"header_addl_info\">version ([\\d.]+)<\\;version:\\1"
-    ],
+    "dom": "main[id*='bugzilla-body'], span[id*='information'][class*='header_addl_info']",
     "icon": "Bugzilla.svg",
     "implies": "Perl",
     "js": {
@@ -3712,7 +3744,6 @@
     "cats": [
       1
     ],
-    "html": "<!-- BC_OBNW -->",
     "icon": "Business Catalyst.svg",
     "scriptSrc": "CatalystScripts",
     "website": "https://businesscatalyst.com"

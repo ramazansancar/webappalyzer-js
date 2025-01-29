@@ -43,6 +43,20 @@
     "saas": true,
     "website": "https://vb.media"
   },
+  "VClasses": {
+    "cats": [
+      21
+    ],
+    "description": "VClasses is a subscription-based software platform that enables users to set up a secure learning management system (LMS) and offer courses for sale.",
+    "icon": "VClasses.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "\\.vclasses\\.net",
+    "website": "https://vclasses.net"
+  },
   "VDX.tv": {
     "cats": [
       36
@@ -388,6 +402,20 @@
       "recurring"
     ],
     "website": "https://www.vectary.com"
+  },
+  "Velaro": {
+    "cats": [
+      52
+    ],
+    "description": "Velaro is a live chat platform designed to engage website visitors and customers, enhancing online sales conversions.",
+    "icon": "Velaro.svg",
+    "js": {
+      "Velaro.Call": "",
+      "isVelaroChatClicked": ""
+    },
+    "saas": true,
+    "scripts": "/velaroscripts/",
+    "website": "https://velaro.com/product/live-chat"
   },
   "Vello": {
     "cats": [
@@ -1181,6 +1209,21 @@
     "website": "https://vimeo.com/ott",
     "xhr": "api\\.vhx\\.tv"
   },
+  "Vimos": {
+    "cats": [
+      32
+    ],
+    "description": "Vimos is a marketing SaaS specializing in marketing automation.",
+    "icon": "Vimos.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "widget\\.vimos\\.io/",
+    "website": "https://vimos.io"
+  },
   "Vincere": {
     "cats": [
       101
@@ -1448,6 +1491,15 @@
     "saas": true,
     "website": "https://visitor.chat"
   },
+  "VisitorVille": {
+    "cats": [
+      10
+    ],
+    "description": "VisitorVille is a tool that visualizes website visitors as a SimCity-like map, providing an interactive way to analyze traffic and user behavior.",
+    "saas": true,
+    "scriptSrc": "www\\.visitorville\\.com/",
+    "website": "http://visitorville.com"
+  },
   "Viskan": {
     "cats": [
       6
@@ -1577,7 +1629,7 @@
       19
     ],
     "description": "Vite is a rapid development tool for modern web projects.",
-    "dom": "script#vite-legacy-polyfill, script#vite-legacy-entry, link[href*='vite.svg'][rel='icon']",
+    "dom": "script#vite-legacy-polyfill, script#vite-legacy-entry, link[href*='vite.svg'][rel='icon'], script[id^='vite-plugin-']",
     "icon": "vite.svg",
     "js": {
       "__vite_is_modern_browser": ""

@@ -312,12 +312,22 @@
     ],
     "website": "https://www.xserver.ne.jp"
   },
+  "Xsolla": {
+    "cats": [
+      41
+    ],
+    "description": "Xsolla is a video game business system offering payment solutions and store management.",
+    "icon": "Xsolla.svg",
+    "saas": true,
+    "scriptSrc": "\\.xsolla\\.(com|net)",
+    "website": "https://xsolla.com"
+  },
   "Xtime": {
     "cats": [
       72
     ],
     "description": "Xtime is a company that provides automotive service scheduling and management solutions primarily for car dealerships and automotive service centers.",
-    "dom": "a[data-modified-by='xtime']",
+    "dom": "a[data-modified-by='xtime']iframe[src*='xtime.net.au']",
     "icon": "Xtime.svg",
     "js": {
       "xtime": ""
@@ -326,7 +336,8 @@
       "poa"
     ],
     "scriptSrc": "\\.xtime\\.com/scheduling",
-    "website": "https://xtime.com"
+    "website": "https://xtime.com",
+    "xhr": "xtime\\.net\\.au"
   },
   "Xtra": {
     "cats": [
@@ -376,6 +387,18 @@
     "saas": true,
     "scriptSrc": "analytics\\.xzero\\.co\\.uk",
     "website": "https://analytics.xzero.co.uk"
+  },
+  "Xzero JS": {
+    "cats": [
+      25
+    ],
+    "description": "Xzero JS is a JavaScript library (ES6 module) for displaying 3D models, scenes and 360° panoramas on the web.",
+    "icon": "XzeroJS.svg",
+    "pricing": [
+      "freemium"
+    ],
+    "scriptSrc": "xzero-js@([\\d.]+)/xzero\\.min\\.js.*\\;version:\\1",
+    "website": "https://xzerojs.org"
   },
   "xCharts": {
     "cats": [

@@ -1090,14 +1090,6 @@
     "scriptSrc": "\\.adglare\\.net/",
     "website": "https://www.adglare.com"
   },
-  "AdInfinity": {
-    "cats": [
-      36
-    ],
-    "icon": "AdInfinity.png",
-    "scriptSrc": "adinfinity\\.com\\.au",
-    "website": "https://adinfinity.com.au"
-  },
   "AdOcean": {
     "cats": [
       36
@@ -1302,6 +1294,22 @@
     "saas": true,
     "scriptSrc": "assets\\.adalo\\.com/",
     "website": "https://www.adalo.com"
+  },
+  "Adalte": {
+    "cats": [
+      104
+    ],
+    "description": "Adalte is an online solution designed for travel agencies, tour operators, and DMCs, offering travel management capabilities.",
+    "icon": "Adalte.svg",
+    "meta": {
+      "author": "www\\.adalte\\.com"
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.adalte.com"
   },
   "Adalyser": {
     "cats": [
@@ -1765,7 +1773,7 @@
       "/etc/clientlibs/",
       "/etc\\.clientlibs/"
     ],
-    "scripts": "aem-(?:GridColumn|apps/)",
+    "scripts": "aem-(?:GridColumn|apps/)|AEMMode",
     "website": "https://www.adobe.com/marketing/experience-manager.html"
   },
   "Adobe Experience Manager Franklin": {
@@ -1776,6 +1784,9 @@
     "description": "Adobe Experience Manager Franklin, also known as Project Helix or Composability, is a new way to publish AEM pages using Google Drive or Microsoft Office via Sharepoint. Instead of components, Franklin uses blocks to build pages. Blocks are pieces of a document that will be transformed into web page content.",
     "excludes": "Adobe Experience Manager",
     "icon": "Adobe Experience Manager Franklin.svg",
+    "js": {
+      "hlx.RUM_MANUAL_ENHANCE": ""
+    },
     "scriptSrc": "^.+/scripts/lib-franklin\\.js$",
     "website": "https://www.hlx.live"
   },
@@ -2287,6 +2298,7 @@
     "dom": "#afterpay, .afterpay, .AfterpayMessage, [aria-label='Afterpay'], link[href*='/wp-content/plugins/afterpay-gateway-for-woocommerce/']",
     "icon": "afterpay.svg",
     "js": {
+      "AfterPay": "",
       "Afterpay": "",
       "Afterpay.version": "([\\d\\.]+)\\;version:\\1",
       "AfterpayAttractWidget": "",
@@ -2304,6 +2316,7 @@
       "afterpay-products\\.min\\.js",
       "js\\.stripe\\.com/v3/fingerprinted/js/elements-afterpay-clearpay-message-.+\\.js"
     ],
+    "scripts": "AFTERPAY",
     "website": "https://www.afterpay.com/"
   },
   "AgentFire": {
@@ -2745,14 +2758,21 @@
     "headers": {
       "X-Akaunting": "^Free Accounting Software$"
     },
-    "html": [
-      "<link[^>]+akaunting-green\\.css",
-      "Powered By Akaunting: <a [^>]*href=\"https?://(?:www\\.)?akaunting\\.com[^>]+>"
-    ],
     "icon": "akaunting.svg",
     "implies": "Laravel",
     "oss": true,
     "website": "https://akaunting.com"
+  },
+  "Akavita": {
+    "cats": [
+      10,
+      36
+    ],
+    "description": "Akavita is a Russian-based service offering analytics and advertising solutions.",
+    "icon": "Akavita.svg",
+    "saas": true,
+    "scriptSrc": "adlik\\.akavita\\.com/",
+    "website": "https://akavita.com"
   },
   "Akero": {
     "cats": [
@@ -2787,11 +2807,12 @@
       6
     ],
     "description": "Akinon is a cloud-based headless commerce platform with an integrated application suite including omnichannel and marketplace capabilities, mobile and in-store solutions, and an OMS.",
-    "icon": "akinon.png",
+    "icon": "Akinon.svg",
     "pricing": [
       "poa"
     ],
     "scriptSrc": "cdn-mgsm\\.akinon\\.net/",
+    "scripts": "\\.akinoncloud\\.com",
     "website": "https://www.akinon.com/"
   },
   "Akismet": {
@@ -3112,6 +3133,21 @@
     "requires": "WordPress",
     "website": "https://aioseo.com"
   },
+  "AllClients": {
+    "cats": [
+      32
+    ],
+    "description": "AllClients is an all-in-one platform that integrates contact management and marketing automation.",
+    "dom": "form[action*='www.allclients.com/'], iframe[href*='www.allclients.com/']",
+    "icon": "AllClients.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://allclients.com"
+  },
   "Allbookable": {
     "cats": [
       72
@@ -3224,19 +3260,6 @@
     "saas": true,
     "scriptSrc": "api\\.alpharank\\.io/",
     "website": "https://www.alpharank.ai"
-  },
-  "Alpine Linux": {
-    "cats": [
-      28
-    ],
-    "cpe": "cpe:2.3:o:alpinelinux:alpine_linux:*:*:*:*:*:*:*:*",
-    "description": "Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.",
-    "headers": {
-      "X-Powered-By": "Alpine"
-    },
-    "icon": "Alpine Linux.svg",
-    "oss": true,
-    "website": "https://www.alpinelinux.org"
   },
   "Alpine.js": {
     "cats": [
@@ -3353,6 +3376,20 @@
       "poa"
     ],
     "website": "https://alvandcms.ir"
+  },
+  "Amasty": {
+    "cats": [
+      6
+    ],
+    "description": "Amasty is a developer of modules for Magento platforms.",
+    "headers": {
+      "Content-Security-Policy": "amasty\\.com",
+      "Content-Security-Policy-Report-Only": "amasty\\.com"
+    },
+    "icon": "Amasty.svg",
+    "requires": "Magento",
+    "saas": true,
+    "website": "https://amasty.com"
   },
   "Amaya": {
     "cats": [
@@ -3914,10 +3951,6 @@
       "Angular",
       "AngularDart"
     ],
-    "html": [
-      "<(?:div|html)[^>]+ng-app=",
-      "<ng-app"
-    ],
     "icon": "AngularJS.svg",
     "js": {
       "angular": "",
@@ -4062,16 +4095,17 @@
     ],
     "description": "Ant Design is a UI library that can be used with data flow solutions and application frameworks in any React ecosystem.",
     "dom": {
+      "div[class*='ant-collapse']": {
+        "attributes": {
+          "class": "ant-collapse"
+        }
+      },
       "link[href*='antd']": {
         "attributes": {
           "href": "antd(?:@|/)?([\\d\\.]+)?(?:.+|)?\\.css\\;version:\\1"
         }
       }
     },
-    "html": [
-      "<[^>]*class=\"ant-(?:btn|col|row|layout|breadcrumb|menu|pagination|steps|select|cascader|checkbox|calendar|form|input-number|input|mention|rate|radio|slider|switch|tree-select|time-picker|transfer|upload|avatar|badge|card|carousel|collapse|list|popover|tooltip|table|tabs|tag|timeline|tree|alert|modal|message|notification|progress|popconfirm|spin|anchor|back-top|divider|drawer)",
-      "<i class=\"anticon anticon-"
-    ],
     "icon": "Ant Design.svg",
     "js": {
       "antd.version": "^([\\d\\.]+)$\\;version:\\1"
@@ -4239,7 +4273,6 @@
     ],
     "cpe": "cpe:2.3:a:apache:jspwiki:*:*:*:*:*:*:*:*",
     "description": "Apache JSPWiki is an open-source Wiki engine, built around standard JEE components (Java, servlets, JSP).",
-    "html": "<html[^>]* xmlns:jspwiki=",
     "icon": "Apache.svg",
     "implies": "Apache Tomcat",
     "oss": true,
@@ -4760,12 +4793,16 @@
     ],
     "description": "Appointo is a Shopify based booking engine from Sidepanda.",
     "icon": "Appointo.svg",
+    "js": {
+      "onRefreshAppointoWidget": ""
+    },
     "pricing": [
       "poa"
     ],
     "requires": "Shopify",
     "saas": true,
     "scriptSrc": "/appointo-14/assets/appointo_bundle.js",
+    "scripts": "app\\.appointo\\.me",
     "website": "https://www.sidepanda.com/appointo"
   },
   "Appointy": {
@@ -4834,6 +4871,26 @@
     "website": "https://appwrite.io",
     "xhr": "cloud\\.appwrite\\.io"
   },
+  "Appzi": {
+    "cats": [
+      90
+    ],
+    "description": "Appzi is a customer experience software that is a user feedback and bug reporting tool.",
+    "icon": "Appzi.svg",
+    "js": {
+      "appzi.At": "",
+      "appziSettings": "",
+      "apzbtgtr": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.appzi\\.io/",
+    "website": "https://www.appzi.com"
+  },
   "Aprimo": {
     "cats": [
       95
@@ -4864,19 +4921,6 @@
     ],
     "website": "https://www.aptusshop.pl"
   },
-  "Apxium": {
-    "cats": [
-      41
-    ],
-    "description": "Apxium is a software solution designed for automating accounts payable processes.",
-    "dom": "div > apx-appskin-page-header",
-    "icon": "Apxium.svg",
-    "pricing": [
-      "poa"
-    ],
-    "saas": true,
-    "website": "https://www.apxium.com"
-  },
   "AquilaCMS": {
     "cats": [
       1
@@ -4895,6 +4939,25 @@
     },
     "oss": true,
     "website": "https://www.aquila-cms.com/"
+  },
+  "Arabot": {
+    "cats": [
+      52
+    ],
+    "description": "Arabot is a no-code chatbot platform designed to automate customer interactions and service fulfillment at scale.",
+    "icon": "Arabot.svg",
+    "js": {
+      "arabotChatScript": "",
+      "arabotSelector": "",
+      "injectArabotScript": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "website": "https://arabot.io"
   },
   "Arastta": {
     "cats": [
@@ -5100,6 +5163,26 @@
     "icon": "arsys.svg",
     "website": "https://www.arsys.es"
   },
+  "ArtiBot": {
+    "cats": [
+      52,
+      53
+    ],
+    "description": "ArtiBot is a chatbot designed for websites, providing automated assistance and customer engagement through conversational interactions.",
+    "icon": "ArtiBot.svg",
+    "js": {
+      "ArtiBot": "",
+      "_artibotLauncherInitializer": "",
+      "artibotApi": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.artibot.ai"
+  },
   "Artifactory": {
     "cats": [
       47
@@ -5251,7 +5334,6 @@
       "div.asciinema-player-wrapper",
       "div.asciinema-player"
     ],
-    "html": "<asciinema-player",
     "icon": "Asciinema.svg",
     "js": {
       "AsciinemaPlayer": "",
@@ -5294,6 +5376,59 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/asgaros-forum/",
     "website": "https://www.asgaros.de"
+  },
+  "Ashop": {
+    "cats": [
+      6
+    ],
+    "description": "Ashop is a hosted shopping cart software solution for creating and managing an online store.",
+    "icon": "Ashop.svg",
+    "js": {
+      "AshopKissMetricsAddClickEvent": "",
+      "AshopKissMetricsAddEvent": "",
+      "AshopKissMetricsAddIdentity": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.ashop.com.au"
+  },
+  "AskNicely": {
+    "cats": [
+      90
+    ],
+    "description": "AskNicely is a platform that measures and improves customer happiness using the Net Promoter Score (NPS) framework.",
+    "icon": "AskNicely.svg",
+    "js": {
+      "askNicelyConversation": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "static\\.asknice\\.ly/",
+    "website": "https://www.asknicely.com"
+  },
+  "AskSpot": {
+    "cats": [
+      52
+    ],
+    "description": "AskSpot is an AI chatbot platform tailored for marketing, digital, and web development agencies.",
+    "icon": "AskSpot.svg",
+    "js": {
+      "askspot.Chatbot": ""
+    },
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "app\\.askspot\\.ai",
+    "website": "https://askspot.ai"
   },
   "Asksuite": {
     "cats": [
@@ -5485,13 +5620,32 @@
     "scriptSrc": "wp-content/plugins/athena-search",
     "website": "https://www.athenasearch.io"
   },
+  "Atlasmic": {
+    "cats": [
+      52
+    ],
+    "description": "Atlasmic is a live chat and business messenger platform designed to support modern online businesses.",
+    "icon": "Atlasmic.svg",
+    "js": {
+      "atlasmic": "",
+      "atlasmic.VERSION": "^([\\d\\.]+)$\\;version:\\1"
+    },
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "\\.atlasmic\\.com",
+    "website": "https://atlasmic.com"
+  },
   "Atlassian Bitbucket": {
     "cats": [
       47
     ],
     "cpe": "cpe:2.3:a:atlassian:bitbucket:*:*:*:*:*:*:*:*",
     "description": "Bitbucket is a web-based version control repository hosting service for source code and development projects that use either Mercurial or Git revision control systems.",
-    "html": "<li>Atlassian Bitbucket <span title=\"[a-z0-9]+\" id=\"product-version\" data-commitid=\"[a-z0-9]+\" data-system-build-number=\"[a-z0-9]+\"> v([\\d.]+)<\\;version:\\1",
     "icon": "Atlassian Bitbucket.svg",
     "implies": "Python",
     "js": {
@@ -5500,6 +5654,7 @@
     "meta": {
       "application-name": "Bitbucket"
     },
+    "scripts": "com\\.atlassian\\.bitbucket",
     "website": "https://www.atlassian.com/software/bitbucket/overview/"
   },
   "Atlassian Confluence": {
@@ -5531,7 +5686,6 @@
       "FESESSIONID": ""
     },
     "cpe": "cpe:2.3:a:atlassian:fisheye:*:*:*:*:*:*:*:*",
-    "html": "<title>(?:Log in to )?FishEye (?:and Crucible )?([\\d.]+)?</title>\\;version:\\1",
     "icon": "Atlassian FishEye.svg",
     "website": "https://www.atlassian.com/software/fisheye/overview/"
   },
@@ -5578,7 +5732,6 @@
       "X-StatusPage-Skip-Logging": "",
       "X-StatusPage-Version": ""
     },
-    "html": "<a[^>]*href=\"https?://(?:www\\.)?statuspage\\.io/powered-by[^>]+>",
     "icon": "Atlassian Statuspage.svg",
     "website": "https://www.atlassian.com/software/statuspage"
   },
@@ -5611,6 +5764,16 @@
     "saas": true,
     "scriptSrc": "cdn\\.attn\\.tv",
     "website": "https://www.attentivemobile.com"
+  },
+  "Attracta": {
+    "cats": [
+      54
+    ],
+    "description": "Attracta is a platform offering SEO tools designed to optimize website visibility and improve search engine rankings.",
+    "icon": "Attracta.svg",
+    "saas": true,
+    "scriptSrc": "cdn\\.attracta\\.com/",
+    "website": "https://www.attracta.com"
   },
   "Attraqt": {
     "cats": [
@@ -5824,6 +5987,18 @@
     "scriptSrc": "\\.automanager\\.com/",
     "website": "https://www.automanager.io"
   },
+  "AutoOps": {
+    "cats": [
+      72
+    ],
+    "description": "AutoOps is an online scheduling tool that integrates with shop management softwares for auto shops.",
+    "icon": "AutoOps.svg",
+    "js": {
+      "AutoOps.addSourceTracking": ""
+    },
+    "saas": true,
+    "website": "https://www.autoops.com/"
+  },
   "Autocommerce": {
     "cats": [
       100
@@ -5838,6 +6013,19 @@
     "saas": true,
     "scriptSrc": "\\.autocommerce\\.io/",
     "website": "https://autocommerce.io"
+  },
+  "Autoconf": {
+    "cats": [
+      1
+    ],
+    "description": "Autoconf is a system designed for managing car dealership operations, including inventory, sales, and customer data.",
+    "icon": "Autoconf.svg",
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "static\\.autoconf\\.com",
+    "website": "https://autoconf.com.br"
   },
   "Autoketing": {
     "cats": [
@@ -6213,6 +6401,19 @@
     "saas": true,
     "website": "https://www.azoyagroup.com"
   },
+  "AzuraCast": {
+    "cats": [
+      38
+    ],
+    "description": "AzuraCast is an open-source self-hosted web radio station in a box.",
+    "dom": "link[href*='/public/azuratest_radio/']",
+    "icon": "AzuraCast.svg",
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "website": "https://www.azuracast.com"
+  },
   "Azure": {
     "cats": [
       62
@@ -6460,7 +6661,6 @@
       25
     ],
     "description": "amCharts is a JavaScript-based interactive charts and maps programming library and tool.",
-    "html": "<svg[^>]*><desc>JavaScript chart by amCharts ([\\d.]*)\\;version:\\1",
     "icon": "amCharts.svg",
     "js": {
       "AmCharts": ""

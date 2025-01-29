@@ -335,7 +335,6 @@
       57
     ],
     "description": "Octopress is a static blogging framework.",
-    "html": "Powered by <a href=\"http://octopress\\.org\">",
     "icon": "octopress.png",
     "implies": "Jekyll",
     "meta": {
@@ -584,7 +583,7 @@
       52
     ],
     "description": "Olark is a cloud-based live chat solution.",
-    "icon": "Olark.png",
+    "icon": "Olark.svg",
     "js": {
       "olark": "",
       "olarkUserData": ""
@@ -594,7 +593,7 @@
     ],
     "saas": true,
     "scriptSrc": "\\.olark\\.com/",
-    "website": "https://www.olark.com/"
+    "website": "https://www.olark.com"
   },
   "Oleoshop": {
     "cats": [
@@ -1044,6 +1043,17 @@
     "saas": true,
     "scriptSrc": "app\\.onlim\\.com/",
     "website": "https://onlim.com"
+  },
+  "Onsen UI": {
+    "cats": [
+      26
+    ],
+    "description": "Onsen UI is an open-source HTML5 hybrid app framework offering mobile UI components for PhoneGap and Cordova development.",
+    "icon": "OnsenUI.svg",
+    "oss": true,
+    "saas": true,
+    "scriptSrc": "(/.*onsen.*min\\.js|.*angular-onsenui\\.min\\.js)",
+    "website": "https://onsen.io"
   },
   "Ookla Speedtest Custom": {
     "cats": [

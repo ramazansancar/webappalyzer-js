@@ -26,7 +26,7 @@
       29
     ],
     "description": "FAST ESP is a service-oriented architecture development platform which is geared towards production searchable indexes. It provided a flexible framework for creating ETL applications for efficient indexing of searchable content.",
-    "html": "<form[^>]+id=\"fastsearch\"",
+    "dom": "form[id^='fastsearch']",
     "icon": "FAST ESP.png",
     "website": "https://microsoft.com/enterprisesearch"
   },
@@ -35,7 +35,7 @@
       29
     ],
     "description": "FAST Search for SharePoint is the search engine for Microsoft's SharePoint collaboration platform. Its purpose is helping SharePoint users locate and retrieve stored enterprise content.",
-    "html": "<input[^>]+ name=\"ParametricSearch",
+    "dom": "input[name*='ParametricSearch'],",
     "icon": "FAST Search for SharePoint.png",
     "implies": [
       "Microsoft SharePoint",
@@ -43,6 +43,16 @@
     ],
     "url": "Pages/SearchResults\\.aspx\\?k=",
     "website": "https://sharepoint.microsoft.com/en-us/product/capabilities/search/Pages/Fast-Search.aspx"
+  },
+  "FC2 Analyzer": {
+    "cats": [
+      10
+    ],
+    "description": "FC2 Analyzer is a platform designed to track and analyze affiliate system performance, providing insights into traffic, conversions, and revenue metrics.",
+    "icon": "FC2Analyzer.svg",
+    "saas": true,
+    "scriptSrc": "\\.fc2\\.com/",
+    "website": "https://fc2.com"
   },
   "FMG Suite": {
     "cats": [
@@ -324,7 +334,7 @@
       72
     ],
     "description": "FareHarbor is an booking and schedule management solution intended for tour and activity companies.",
-    "html": "<iframe[^>]+fareharbor",
+    "dom": "iframe[src*='fareharbor']",
     "icon": "FareHarbor.svg",
     "pricing": [
       "poa"
@@ -370,6 +380,16 @@
     "scriptSrc": "js\\.fast\\.co/",
     "website": "https://www.fast.co"
   },
+  "FastAPI": {
+    "cats": [
+      18
+    ],
+    "description": "FastAPI is a web framework for building APIs with Python, utilizing standard Python type hints.",
+    "dom": "link[href*='fastapi.tiangolo.com'][rel='shortcut icon']",
+    "icon": "FastAPI.svg",
+    "implies": "Python",
+    "website": "https://fastapi.tiangolo.com"
+  },
   "FastComet": {
     "cats": [
       88
@@ -391,10 +411,7 @@
       41
     ],
     "description": "FastSpring is a digital ecommerce platform that helps software and SaaS companies manage payments, subscriptions, tax compliance, and fraud prevention globally.",
-    "html": [
-      "<a [^>]*href=\"https?://sites\\.fastspring\\.com",
-      "<form [^>]*action=\"https?://sites\\.fastspring\\.com"
-    ],
+    "dom": "form[action*='sites.fastspring.com']",
     "icon": "FastSpring.svg",
     "js": {
       "fastspring": "",
@@ -505,10 +522,7 @@
       41
     ],
     "description": "Fat Zebra provides a process of accepting credit card payments online.",
-    "html": [
-      "<(?:iframe|img|form)[^>]+paynow\\.pmnts\\.io",
-      "<(?:iframe)[^>]+FatZebraFrame"
-    ],
+    "dom": "iframe[src*='paynow.pmnts.io'], form[action*='paynow.pmnts.io'], iframe[src*='FatZebraFrame']",
     "icon": "fatzebra.svg",
     "scriptSrc": "paynow\\.pmnts\\.io",
     "website": "https://www.fatzebra.com/"
@@ -1144,6 +1158,19 @@
     "scriptSrc": "script\\.fixel\\.ai/",
     "website": "https://fixel.ai"
   },
+  "Flable": {
+    "cats": [
+      32
+    ],
+    "description": "Flable is an AI-powered digital marketing platform that unifies marketing data and reduces customer acquisition costs.",
+    "icon": "Flable.svg",
+    "js": {
+      "flable": ""
+    },
+    "saas": true,
+    "scripts": "\\.flable\\.ai",
+    "website": "https://flable.ai"
+  },
   "FlagSmith": {
     "cats": [
       85
@@ -1186,7 +1213,7 @@
     ],
     "cpe": "cpe:2.3:a:flarum:flarum:*:*:*:*:*:*:*:*",
     "description": "Flarum is a discussion platform.",
-    "html": "<div id=\"flarum-loading\"",
+    "dom": "div[id*='flarum-loading']",
     "icon": "flarum.svg",
     "implies": [
       "PHP",
@@ -1359,6 +1386,34 @@
     "scriptSrc": "\\.flipbuilder\\.com/",
     "website": "https://www.flipbuilder.com"
   },
+  "Flipdish": {
+    "cats": [
+      93
+    ],
+    "description": "Flipdish is an all-in-one technology solution designed to streamline restaurant operations.",
+    "icon": "Flipdish.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.web\\.flipdish\\.com/",
+    "website": "https://www.flipdish.com"
+  },
+  "Flipping Pro CRM": {
+    "cats": [
+      53
+    ],
+    "description": "Flipping Pro is an all-in-one real estate marketing CRM offering essential tools to help real estate business owners grow their operations.",
+    "icon": "FlippingPro.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "app\\.flippingpro\\.com",
+    "website": "https://flippingpro.com"
+  },
   "FlippingBook": {
     "cats": [
       5
@@ -1377,6 +1432,23 @@
     "saas": true,
     "scriptSrc": "online\\.flippingbook\\.com/",
     "website": "https://flippingbook.com"
+  },
+  "Flipsite": {
+    "cats": [
+      51
+    ],
+    "description": "Flipsite is a platform for creating and managing websites.",
+    "icon": "Flipsite.svg",
+    "meta": {
+      "author": "^Made with Flipsite$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://flipsite.io"
   },
   "Flits": {
     "cats": [
@@ -1498,6 +1570,21 @@
     "scriptSrc": "(?:shopify-)?cdn\\.flow\\.io/",
     "website": "https://www.flow.io/"
   },
+  "FlowTrack": {
+    "cats": [
+      32
+    ],
+    "description": "FlowTrack is an app that consolidates multiple services into one platform, enabling websites to attract more visitors and convert them into leads.",
+    "icon": "FlowTrack.svg",
+    "pricing": [
+      "onetime",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.flowtrack\\.co/",
+    "website": "https://www.flowtrack.co"
+  },
   "Flowbite": {
     "cats": [
       66
@@ -1544,6 +1631,23 @@
     ],
     "saas": true,
     "website": "https://flowplayer.com"
+  },
+  "Fluid Player": {
+    "cats": [
+      14
+    ],
+    "description": "Fluid Player is an open-source HTML5 video player.",
+    "icon": "FluidPlayer.svg",
+    "js": {
+      "fluidPlayer": "",
+      "webpackChunkfluid_player": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "scriptSrc": "cdn\\.fluidplayer\\.com",
+    "website": "https://www.fluidplayer.com"
   },
   "Flurry Analytics": {
     "cats": [
@@ -2346,6 +2450,22 @@
     "saas": true,
     "website": "https://getframes.io"
   },
+  "Framework7": {
+    "cats": [
+      26
+    ],
+    "description": "Framework7 is a mobile HTML framework designed for creating iOS and Android applications with a native-like user experience.",
+    "icon": "Framework7.svg",
+    "js": {
+      "Framework7.Component": ""
+    },
+    "oss": true,
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "website": "https://framework7.io"
+  },
   "France Express": {
     "cats": [
       99
@@ -2448,7 +2568,6 @@
       24
     ],
     "description": "FreeTextBox is a free open-source HTML Editor.",
-    "html": "<!-- \\* FreeTextBox v\\d \\((\\d+\\.\\d+\\.\\d+)\\;version:\\1",
     "icon": "FreeTextBox.png",
     "implies": "Microsoft ASP.NET",
     "js": {
@@ -2681,6 +2800,42 @@
     "scripts": "x-frc-client\",\"js-(\\d+(\\.\\d+)+)\\;version:\\1",
     "website": "https://friendlycaptcha.com",
     "xhr": "api.friendlycaptcha.com"
+  },
+  "Frill": {
+    "cats": [
+      90
+    ],
+    "description": "Frill is a platform that connects customers and businesses by enabling customers to provide feedback.",
+    "icon": "Frill.svg",
+    "js": {
+      "FRILL_ENV": "",
+      "Frill.containers": ""
+    },
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.frill\\.co/",
+    "website": "https://frill.co"
+  },
+  "Frisbie": {
+    "cats": [
+      52
+    ],
+    "description": "Frisbie is a Russian chat widget designed for online communication.",
+    "icon": "Frisbie.svg",
+    "js": {
+      "Frisbie.app": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://frisbie.me"
   },
   "Frizbit": {
     "cats": [
@@ -3020,6 +3175,20 @@
     "saas": true,
     "website": "https://funnelish.com"
   },
+  "Funnels of Course": {
+    "cats": [
+      32
+    ],
+    "description": "Funnels of Course is an all-in-one marketing platform designed to support coaches and course creators in achieving online success.",
+    "icon": "FunnelsOfCourse.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "app\\.funnelsofcourse\\.com",
+    "website": "https://funnelsofcourse.com"
+  },
   "Funnelytics": {
     "cats": [
       32
@@ -3123,6 +3292,21 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/themes/futurio/.+customscript\\.js(?:\\?ver=([\\d\\.]+))?\\;version:\\1",
     "website": "https://futuriowp.com"
+  },
+  "Fygaro": {
+    "cats": [
+      6
+    ],
+    "description": "Fygaro is an online commerce platform enabling businesses to sell online, manage retail operations, and streamline daily business activities.",
+    "icon": "Fygaro.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "api\\.fygaro\\.com/",
+    "scripts": "fygaro-production\\.s3",
+    "website": "https://www.fygaro.com"
   },
   "Fynd Platform": {
     "cats": [

@@ -93,14 +93,6 @@
     "saas": true,
     "website": "https://www.ekm.com"
   },
-  "ELOG": {
-    "cats": [
-      19
-    ],
-    "html": "<title>ELOG Logbook Selection</title>",
-    "icon": "ELOG.png",
-    "website": "https://midas.psi.ch/elog"
-  },
   "ELOG HTTP": {
     "cats": [
       22
@@ -109,7 +101,6 @@
       "Server": "ELOG HTTP ?([\\d.-]+)?\\;version:\\1"
     },
     "icon": "ELOG.png",
-    "implies": "ELOG",
     "website": "https://midas.psi.ch/elog"
   },
   "EPrints": {
@@ -230,6 +221,20 @@
     "saas": true,
     "website": "https://www.oclc.org/en/ezproxy.html"
   },
+  "EarlyParrot": {
+    "cats": [
+      94
+    ],
+    "description": "EarlyParrot is a referral marketing platform that supports coaches, course creators, and event hosts in expanding launches, webinars, and email lists through effective referral strategies.",
+    "icon": "EarlyParrot.svg",
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "app\\.earlyparrot\\.com",
+    "website": "https://www.earlyparrot.com"
+  },
   "EaselJS": {
     "cats": [
       59
@@ -306,6 +311,22 @@
     "saas": true,
     "scriptSrc": "easy-redirects\\..+/redirect-app\\.js",
     "website": "https://apps.shopify.com/easyredirects"
+  },
+  "Easy Rez": {
+    "cats": [
+      93
+    ],
+    "description": "Easy Rez is a hotel property management and booking system designed to streamline reservations, room management, and guest services.",
+    "icon": "EasyRez.svg",
+    "meta": {
+      "author": "^Easy-Rez$"
+    },
+    "pricing": [
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "cdn\\.easy-rez\\.com/",
+    "website": "https://www.easy-rez.com"
   },
   "EasyBroker": {
     "cats": [
@@ -439,6 +460,24 @@
       "\\bEasylog\\b"
     ],
     "website": "https://www.easylog.com.br"
+  },
+  "Easysize": {
+    "cats": [
+      6
+    ],
+    "description": "Easysize is a system that provides clothing size recommendations to enhance fit and reduce sizing errors.",
+    "icon": "Easysize.svg",
+    "js": {
+      "EasySize": "",
+      "EasySizeDebugEnable": "",
+      "EasySizeParametersDebug": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://www.easysize.me"
   },
   "Ebasnet": {
     "cats": [
@@ -1195,6 +1234,22 @@
     "scriptSrc": "([\\d\\.]+)?(?:/dist)?/email\\.min\\.js\\;version:\\1",
     "website": "https://www.emailjs.com"
   },
+  "Emaileri": {
+    "cats": [
+      75
+    ],
+    "description": "Emaileri is a platform designed for email marketing and newsletter communications.",
+    "dom": "iframe[src*='static.emaileri.fi']",
+    "icon": "Emaileri.svg",
+    "pricing": [
+      "low",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scripts": "static\\.emaileri\\.fi",
+    "website": "https://www.emaileri.com"
+  },
   "Emanda": {
     "cats": [
       32
@@ -1320,6 +1375,25 @@
     },
     "scripts": "@overview\\s+Ember -[\\s\\S]+@version\\s+(.+)\\;version:\\1",
     "website": "https://emberjs.com"
+  },
+  "Emojicom": {
+    "cats": [
+      73
+    ],
+    "description": "Emojicom is a tool for collecting feedback through emojis, enabling the capture of visitors' emotions.",
+    "icon": "Emojicom.svg",
+    "js": {
+      "$emojicom": "",
+      "EMOJICOM_BASE_PATH": "cdn\\.emojicom\\.io/",
+      "emojicom": ""
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "website": "https://emojicom.io"
   },
   "Emotion": {
     "cats": [
@@ -1722,7 +1796,7 @@
     "cats": [
       25
     ],
-    "html": "<link[^>]+?href=\"[^\"]+epoch(?:\\.min)?\\.css",
+    "dom": "link[href*='epoch.css'], link[href*='epoch.min.css']",
     "implies": "D3",
     "scriptSrc": "epoch(?:\\.min)?\\.js",
     "website": "https://fastly.github.io/epoch"
@@ -1882,8 +1956,9 @@
       12,
       59
     ],
-    "html": "<[^>]+ class ?= ?\"(?:e-control|[^\"]+ e-control)(?: )[^\"]* e-lib\\b",
+    "dom": "[class*='e-control'][class~='e-lib']",
     "icon": "Syncfusion.svg",
+    "oss": true,
     "website": "https://www.syncfusion.com/javascript-ui-controls"
   },
   "Estore Compare": {
@@ -2063,6 +2138,24 @@
     "scriptSrc": "everflow\\.js",
     "website": "https://www.everflow.io"
   },
+  "Everviz": {
+    "cats": [
+      10
+    ],
+    "description": "Everviz is an online tool for creating interactive charts and maps, enabling data visualization with customizable features.",
+    "icon": "Everviz.svg",
+    "js": {
+      "everviz.beforePrint": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.everviz\\.com/",
+    "website": "https://www.everviz.com"
+  },
   "EveryAction": {
     "cats": [
       111
@@ -2084,7 +2177,7 @@
       72
     ],
     "description": "Eveve is a restaurant table booking widget.",
-    "html": "<iframe[^>]*[\\w]+\\.eveve\\.com",
+    "dom": "iframe[src*='.eveve.com']",
     "icon": "Eveve.svg",
     "implies": "PHP",
     "pricing": [
@@ -2757,9 +2850,14 @@
       41
     ],
     "description": "eWAY is a global omnichannel payment provider. The company processes secure credit card payments for merchants. eWay works through eCommerce.",
-    "html": "<img [^>]*src=\"[^/]*//[^/]*eway\\.com",
     "icon": "eway.svg",
+    "js": {
+      "eWAY.eventHandler": "",
+      "eWAYUtils": "",
+      "ewayVars": ""
+    },
     "scriptSrc": "secure\\.ewaypayments\\.com",
+    "scripts": "api\\.ewaypayments\\.com",
     "website": "https://www.eway.com.au/"
   },
   "eZ Publish": {

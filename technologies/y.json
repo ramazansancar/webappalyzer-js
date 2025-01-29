@@ -64,6 +64,21 @@
     "icon": "YaBB.png",
     "website": "https://www.yabbforum.com"
   },
+  "YachtSys": {
+    "cats": [
+      72
+    ],
+    "description": "YachtSys is a booking management system.",
+    "icon": "YachtSys.svg",
+    "pricing": [
+      "freemium",
+      "mid",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "apps\\.yachtsys\\.com/",
+    "website": "https://www.yachtsys.com"
+  },
   "Yahoo Advertising": {
     "cats": [
       36,
@@ -521,12 +536,7 @@
         }
       }
     },
-    "html": [
-      "<!-- This site is optimized with the Yoast (?:WordPress )?SEO plugin v([^\\s]+) -\\;version:\\1",
-      "<!-- This site is optimized with the Yoast SEO Premium plugin v(?:[^\\s]+) \\(Yoast SEO v([^\\s]+)\\) -\\;version:\\1"
-    ],
     "icon": "Yoast SEO.png",
-    "implies": "WordPress",
     "oss": true,
     "website": "https://yoast.com/wordpress/plugins/seo/"
   },

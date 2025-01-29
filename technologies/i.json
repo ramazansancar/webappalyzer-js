@@ -351,6 +351,20 @@
     "saas": true,
     "website": "https://ikas.com"
   },
+  "Ilias": {
+    "cats": [
+      21
+    ],
+    "description": "Ilias is an open source learning management system.",
+    "icon": "Ilias.svg",
+    "js": {
+      "il.Accordion": "",
+      "ilAccordionsInits": "",
+      "ilTagging": ""
+    },
+    "oss": true,
+    "website": "https://www.ilias.de"
+  },
   "Iluria": {
     "cats": [
       6,
@@ -452,6 +466,23 @@
     "requires": "WordPress",
     "scriptSrc": "/wp-content/plugins/nextgen-gallery(?:-pro|-plus)?/",
     "website": "https://www.imagely.com/wordpress-gallery-plugin"
+  },
+  "Imba": {
+    "cats": [
+      27
+    ],
+    "description": "Imba is a Web programming language that compiles to performant JavaScript, providing language-level support for defining, extending, subclassing, and instantiating.",
+    "icon": "Imba.svg",
+    "js": {
+      "Imba": "",
+      "Imba.VERSION": "([\\d\\.]+)\\;version:\\1",
+      "imba": ""
+    },
+    "oss": true,
+    "pricing": [
+      "freemium"
+    ],
+    "website": "https://imba.io"
   },
   "Imber": {
     "cats": [
@@ -755,7 +786,7 @@
       1
     ],
     "cpe": "cpe:2.3:a:indexhibit:indexhibit:*:*:*:*:*:*:*:*",
-    "html": "<(?:link|a href) [^>]+ndxz-studio",
+    "dom": "link[href*='ndxz-studio']",
     "implies": [
       "PHP",
       "Apache HTTP Server",
@@ -774,7 +805,6 @@
       "MAKACSESSION": ""
     },
     "description": "Indico is an open-source event management system designed for organizing scientific conferences and workshops.",
-    "html": "Powered by\\s+(?:CERN )?<a href=\"http://(?:cdsware\\.cern\\.ch/indico/|indico-software\\.org|cern\\.ch/indico)\">(?:CDS )?Indico( [\\d\\.]+)?\\;version:\\1",
     "icon": "Indico.svg",
     "oss": true,
     "website": "https://getindico.io"
@@ -1032,9 +1062,6 @@
     "cats": [
       10
     ],
-    "html": [
-      "<!-- (?:Begin|End) Inspectlet Embed Code -->"
-    ],
     "icon": "Inspectlet.svg",
     "js": {
       "__insp": "",
@@ -1117,6 +1144,7 @@
     "dom": "div[class='__instant'][data-instant-version]",
     "icon": "Instant.svg",
     "js": {
+      "Instant.initialized": "",
       "Instant.initializedVersion": "([\\d\\.]+)\\;version:\\1",
       "__instantInitSliders": ""
     },
@@ -1446,7 +1474,6 @@
       6
     ],
     "description": "Intershop is an ecommerce platform, tailored to the needs of complex business processes and major organisations.",
-    "html": "<ish-root",
     "icon": "Intershop.svg",
     "pricing": [
       "onetime",
@@ -1543,7 +1570,6 @@
       "ipbWWLsession_id": ""
     },
     "description": "Invision Power Board is a commercial Internet forum software developed by Invision Community (formerly Invision Power Services).",
-    "html": "<link[^>]+ipb_[^>]+\\.css",
     "icon": "Invision Power Board.svg",
     "implies": [
       "PHP",
@@ -1559,6 +1585,7 @@
       "recurring"
     ],
     "scriptSrc": "jscripts/ips_",
+    "scripts": "ipb_url_filter_option",
     "website": "https://invisioncommunity.com"
   },
   "Invitario": {
@@ -1634,8 +1661,12 @@
     "cats": [
       6
     ],
-    "html": "<a[^>]*href=\"https://www\\.irroba\\.com\\.br",
     "icon": "irroba.svg",
+    "meta": {
+      "copyright": "^IRROBA E-COMMERCE$",
+      "generator": "^IRROBA E-COMMERCE$",
+      "webmaster": "^IRROBA E-COMMERCE$"
+    },
     "website": "https://www.irroba.com.br/"
   },
   "Isotope": {
@@ -1901,6 +1932,20 @@
     },
     "website": "https://ipresta.ir"
   },
+  "iSET": {
+    "cats": [
+      6
+    ],
+    "description": "iSET is an ecommerce platform providing tools to start, grow, and scale online stores.",
+    "icon": "iSET.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scripts": "cdn\\.iset\\.io/",
+    "website": "https://www.iset.com.br"
+  },
   "iScripts": {
     "cats": [
       1
@@ -1975,10 +2020,7 @@
       8
     ],
     "description": "ikiwiki is a free and open-source wiki application.",
-    "html": [
-      "<link rel=\"alternate\" type=\"application/x-wiki\" title=\"Edit this page\" href=\"[^\"]*/ikiwiki\\.cgi",
-      "<a href=\"/(?:cgi-bin/)?ikiwiki\\.cgi\\?do="
-    ],
+    "dom": "link[rel='alternate'][type='application/x-wiki'][title='Edit this page'][href*='/ikiwiki.cgi']",
     "icon": "ikiwiki.png",
     "website": "https://ikiwiki.info"
   },

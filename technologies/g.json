@@ -204,7 +204,6 @@
     "cats": [
       1
     ],
-    "html": "<!--\\s+Powered by GX",
     "icon": "GX WebManager.svg",
     "meta": {
       "generator": "GX WebManager(?: ([\\d.]+))?\\;version:\\1"
@@ -233,10 +232,7 @@
       7
     ],
     "description": "Gallery is an open-source web based photo album organiser.",
-    "html": [
-      "<div id=\"gsNavBar\" class=\"gcBorder1\">",
-      "<a href=\"http://gallery\\.sourceforge\\.net\"><img[^>]+Powered by Gallery\\s*(?:(?:v|Version)\\s*([0-9.]+))?\\;version:\\1"
-    ],
+    "dom": "div[id*='gsNavBar'], div[class*='gcBorder1']",
     "icon": "Gallery.png",
     "js": {
       "$.fn.gallery_valign": "",
@@ -413,8 +409,7 @@
     "cats": [
       10
     ],
-    "html": "<a [^>]*onclick=\"gemius_hit",
-    "icon": "Gemius.png",
+    "icon": "Gemius.svg",
     "js": {
       "gemius_hit": "",
       "gemius_init": "",
@@ -432,17 +427,12 @@
     "cats": [
       27
     ],
-    "html": [
-      "<link[^>]+?id=\"gxtheme_css_reference\""
-    ],
+    "dom": "link[id^='gxtheme_css_reference']",
     "icon": "GeneXus.svg",
     "js": {
       "gx.gxVersion": "^(.+)-.*$\\;version:\\1"
     },
-    "scriptSrc": [
-      "/static/gxgral\\.js",
-      "/static/gxtimezone\\.js"
-    ],
+    "scriptSrc": "/static/(gxgral|gxtimezone)\\.js",
     "website": "https://www.genexus.com/"
   },
   "GenerateBlocks": {
@@ -676,6 +666,30 @@
       "GSFN": ""
     },
     "website": "https://getsatisfaction.com/corp/"
+  },
+  "Get Siimple": {
+    "cats": [
+      51
+    ],
+    "description": "Get Siimple is a tool that enables the creation of a single-page website without requiring technical or design expertise.",
+    "icon": "GetSiimple.svg",
+    "pricing": [
+      "low",
+      "recurring"
+    ],
+    "saas": true,
+    "scriptSrc": "analytics\\.getsiimple\\.com/",
+    "website": "https://getsiimple.com"
+  },
+  "GetAuto": {
+    "cats": [
+      6
+    ],
+    "description": "GetAuto is a platform offering an inventory of used cars available for purchase.",
+    "dom": "link[href*='cdn.getauto.com/']",
+    "icon": "GetAuto.svg",
+    "saas": true,
+    "website": "https://getauto.com"
   },
   "GetButton": {
     "cats": [
@@ -2845,6 +2859,24 @@
     },
     "website": "https://www.greenvalley.nl/Public/Producten/Content_Management/CMS"
   },
+  "GreenRope": {
+    "cats": [
+      53
+    ],
+    "description": "GreenRope is an all-in-one CRM platform that integrates sales, marketing, and operational tools into a single system for business management.",
+    "icon": "GreenRope.svg",
+    "js": {
+      "bfpd": "app\\.greenrope\\.com"
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "app\\.greenrope\\.com/",
+    "website": "https://www.greenrope.com"
+  },
   "GreenStory": {
     "cats": [
       10
@@ -2866,6 +2898,7 @@
       101
     ],
     "description": "Greenhouse is an applicant tracking and hiring tool. Greenhouse features automated workflow, recruitment analytics, CRM, and onboarding.",
+    "dom": "link[href*='cdn\\.greenhouse\\.io/']",
     "icon": "Greenhouse.svg",
     "js": {
       "populateGreenhouseJobs": ""
@@ -2988,6 +3021,39 @@
     "scriptSrc": "\\.groovehq\\.com/",
     "website": "https://www.groovehq.com"
   },
+  "GrooveKart": {
+    "cats": [
+      6
+    ],
+    "description": "GrooveKart is an ecommerce platform for building and managing online stores, offering tools for product listing, payments, and marketing with no additional transaction fees.",
+    "excludes": "PrestaShop",
+    "icon": "GrooveKart.svg",
+    "meta": {
+      "generator": "^GrooveKart$"
+    },
+    "pricing": [
+      "freemium",
+      "low",
+      "onetime"
+    ],
+    "website": "https://groove.cm/store"
+  },
+  "GroovePages": {
+    "cats": [
+      51
+    ],
+    "description": "GroovePages is a cloud-based drag-and-drop website and funnel builder that enables users to create responsive websites, landing pages, and sales funnels without coding.",
+    "dom": "link[href*='//app.groove.cm/groovepages/']",
+    "icon": "GrooveKart.svg",
+    "pricing": [
+      "freemium",
+      "low",
+      "onetime"
+    ],
+    "saas": true,
+    "scriptSrc": "//app\\.groove\\.cm/groovepages/",
+    "website": "https://groove.cm/pages"
+  },
   "GroupBy": {
     "cats": [
       29
@@ -2997,6 +3063,24 @@
     "saas": true,
     "scriptSrc": "cdn\\.groupbycloud\\.com",
     "website": "https://groupbyinc.com/"
+  },
+  "GrowSurf": {
+    "cats": [
+      32
+    ],
+    "description": "GrowSurf is a referral marketing software designed to automate viral growth for websites.",
+    "icon": "GrowSurf.svg",
+    "js": {
+      "growsurf.init": ""
+    },
+    "pricing": [
+      "mid",
+      "recurring",
+      "poa"
+    ],
+    "saas": true,
+    "scriptSrc": "\\.growsurf\\.com/",
+    "website": "https://growsurf.com"
   },
   "Growave": {
     "cats": [
