@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const Wappalyzer = require('./index')
+const Wappalyzer = require('./origin')
 
 const args = process.argv.slice(2)
 

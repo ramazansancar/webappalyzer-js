@@ -3,14 +3,13 @@ const dns = require('dns').promises
 const path = require('path')
 const http = require('http')
 const https = require('https')
-const puppeteer = require("puppeteer-core");
-const chromium = require("@sparticuz/chromium");
+const puppeteer = require('puppeteer')
 const Wappalyzer = require('./wappalyzer')
 
 const { setTechnologies, setCategories, analyze, analyzeManyToMany, resolve } =
   Wappalyzer
 
-const { CHROMIUM_DATA_DIR, CHROMIUM_WEBSOCKET, CHROMIUM_ARGS } =
+const { CHROMIUM_BIN, CHROMIUM_DATA_DIR, CHROMIUM_WEBSOCKET, CHROMIUM_ARGS } =
   process.env
 
 const chromiumArgs = CHROMIUM_ARGS
@@ -389,10 +388,8 @@ class Driver {
           this.browser = await puppeteer.launch({
             ignoreHTTPSErrors: true,
             acceptInsecureCerts: true,
-            args: chromium.args,
-            defaultViewport: chromium.defaultViewport,
-            executablePath: await chromium.executablePath(),
-            headless: chromium.headless,
+            args: chromiumArgs,
+            executablePath: CHROMIUM_BIN,
             timeout: this.options.fast
               ? Math.min(this.options.maxWait, 10000)
               : this.options.maxWait,
